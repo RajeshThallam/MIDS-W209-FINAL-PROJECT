@@ -12,7 +12,7 @@ import numpy as np
 import sklearn.feature_extraction.text as text
 import lda
 
-es = elasticsearch.Elasticsearch()
+es = elasticsearch.Elasticsearch(hosts='54.183.182.71')
 
 q = {
 "query" : {
