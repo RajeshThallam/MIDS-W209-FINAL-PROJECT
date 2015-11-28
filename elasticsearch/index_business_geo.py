@@ -26,21 +26,6 @@ index = {
                     'type': INDEX_TYPE_BUSINESS,
                     'file': 'yelp_academic_dataset_business.json',
                     'id': 'business_id'
-                },
-                {
-                    'type': INDEX_TYPE_USER,
-                    'file': 'yelp_academic_dataset_user.json',
-                    'id': 'user_id'
-                },
-                {
-                    'type': INDEX_TYPE_REVIEW,
-                    'file': 'yelp_academic_dataset_review.json',
-                    'id': 'review_id'
-                },
-                {
-                    'type': INDEX_TYPE_CHECKIN,
-                    'file': 'yelp_academic_dataset_checkin.json',
-                    'id': 'business_id'
                 }
             ]
         }
@@ -54,7 +39,6 @@ def create_delete_index(index_name):
             print(" response: '%s'" % (res))
 
         # since we are running locally, use one shard and no replicas
-        # Create a Geo Index for Business
         request_body = {
             "settings": {
                 "number_of_shards": 1,
@@ -74,18 +58,11 @@ def create_delete_index(index_name):
         print("creating '%s' index..." % (INDEX_NAME))
         res = es.indices.create(index = INDEX_NAME, body = request_body)
         print(" response: '%s'" % (res))
+
+
     except Exception as e:
         print e
         sys.exit(1)
-
-
-def process_data(type, data_dict):
-    """Massage Data for Certain Index Types"""
-    if type == INDEX_TYPE_BUSINESS:
-        data_dict[u'location'] = {
-                                        u'lat': data_dict['latitude'],
-                                        u'lon': data_dict['longitude']
-                                 }
 
 
 def build_index(type, file, id):
@@ -98,9 +75,10 @@ def build_index(type, file, id):
             cnt += 1
 
             data_dict = json.loads(line)
-
-            # Special Processing for Business
-            process_data(type, data_dict)
+            data_dict[u'location'] = {
+                                        u'lat': data_dict['latitude'],
+                                        u'lon': data_dict['longitude']
+                                    }
 
             op_dict = {
                 "index": {
@@ -124,6 +102,7 @@ def build_index(type, file, id):
 
 if __name__ == '__main__':
     '''Main Point of Entry to Program'''
+
     #Create/Drop Index
     create_delete_index(INDEX_NAME)
 
