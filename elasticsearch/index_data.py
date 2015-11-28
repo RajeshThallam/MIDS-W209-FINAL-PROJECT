@@ -8,6 +8,7 @@ import pprint
 
 
 ROOT_DIR = '/Users/ssatpati/0-DATASCIENCE/DEV/github/viz/yelp_dataset_challenge_academic_dataset'
+#ROOT_DIR = '/home/ubuntu/data/yelp_dataset_challenge_academic_dataset'
 BATCH_SIZE = 50*2
 
 es = elasticsearch.Elasticsearch()  # use default of localhost, port 9200
