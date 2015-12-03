@@ -16,8 +16,7 @@ svg .pumpkin {
     font-size: 11px;
 }
 
-.dc-chart .axis text {
-    font-size: sans-serif;
+.dc-chart text{
+    font-family: sans-serif;
     font-size: 11px;
-    color: slategrey ;
 }

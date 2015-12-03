@@ -201,6 +201,7 @@ d3.json(url_base_search_count, function(error, data) {
         .gap(13)
         .brushOn(false)
         .yAxisLabel("Average Rating")
+        .xAxisLabel("Months")
         .valueAccessor(function (p) {
             return p.value.star_avg;
         })
