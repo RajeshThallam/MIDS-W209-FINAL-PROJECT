@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src='js/d3.js' type='text/javascript'></script>
+    <script src='js/crossfilter.js' type='text/javascript'></script>
+    <script src='js/dc.js' type='text/javascript'></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src='js/bootstrap.min.js' type='text/javascript'></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/dc.css' rel='stylesheet' type='text/css'>
+    <link href='css/yelp.css' rel='stylesheet' type='text/css'>
+    <link href='font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+</head>
+<style>
+.bar.positive {
+  fill: steelblue;
+}
+
+.bar.negative {
+  fill: brown;
+}
+
+.bartext {
+  font: 10px 'Helvetica Neue';
+  font-weight: 400;
+}
+
+.axis text {
+  font: 10px 'Helvetica Neue';
+  font-weight: 400;
+  color: red;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.rating {
+  font: 12px 'Helvetica Neue';
+  font-weight: 400;
+}
+
+.legend {
+    border: 1px solid #555555;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.8em;
+    margin: 10px;
+    padding: 8px;
+}
+.bld {
+    font-weight: bold;
+}
+
+#slider-rating {
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 900px;
+}
+
+</style>
+<body>
+  <div id="slider-rating">
+    <fieldset class="rating">
+        <text text-anchor="left" fill="black">Ratings</text>
+        <input type="radio" id="star5" name="rating" value="5" onclick="updateChart(5)"/><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+        <input type="radio" id="star4" name="rating" value="4" onclick="updateChart(4)"/><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+        <input type="radio" id="star3" name="rating" value="3" onclick="updateChart(3)" checked="checked"/><label class = "full" for="star3" title="Alright - 3 stars"></label>
+        <input type="radio" id="star2" name="rating" value="2" onclick="updateChart(2)"/><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+        <input type="radio" id="star1" name="rating" value="1" onclick="updateChart(1)"/><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    </fieldset>
+  </div>
+  <br>
+  <div id="chart-review-sentiment"></div>
+  <div id="chart-review-wordcloud"></div>
+  <script>
+      var parsedReviewTopics = [];
+
+      // svg for chart
+      var svg = d3.select("#chart-review-sentiment");
+
+      // load json (eventually from elasticsearch)
+      d3.json("sample_review_sentiments.json", function(data) {
+          var stars;
+          // extract required data
+          data.forEach(function(d) {
+            stars = +d.stars;
+            d.word_freq.forEach(function(k) {
+              if (k.sentiment != 'neutral') {
+                parsedReviewTopics.push([k.text, +k.score, k.sentiment, stars]);
+              }
+            });
+          });
+      });
+
+      // event
+      function updateChart(rating) {
+            // extract required data based on ratings
+            var reviews = [];
+            parsedReviewTopics.forEach(function(d) {
+                if ( d[3] == rating) {
+                  reviews.push([d[0], d[1]])
+                }
+            });
+
+            reviews.sort(function(a, b) {
+              return Math.abs(b[1]) - Math.abs(a[1]);
+            });
+
+            reviews = reviews.slice([0,19]);
+
+            // clear previous charts
+            d3.select("#svg-chart-review-sentiment").remove();
+            d3.select("#svg-chart-review-wordcloud").remove();
+
+            // set height of chart based on data
+            var margin = {top: 50, right: 0, bottom: 10, left: 100};
+            var width = 700 - margin.left - margin.right;
+            //var barHeight = 35 - reviews.length * 0.75 ;
+            var barHeight = 35 - reviews.length * 0.75 ;
+            height = 40 + ( barHeight * reviews.length ) - margin.top - margin.bottom + 1.1*reviews.length;
+
+            // set x and y axis
+            var x = d3.scale.linear()
+                      .range([0, width]);
+            var y = d3.scale.ordinal()
+                      .rangeRoundBands([0, height], .15);
+            var xAxis = d3.svg.axis()
+                      .scale(x)
+                      .orient("top");
+
+            x.domain([-1.0, 1.0])
+            y.domain(reviews.map(function(d) { return d[0]; }));
+
+            // draw bar chart
+            var bar = svg.append("svg")
+                        .attr("id", "svg-chart-review-sentiment")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .attr("float", "left")
+                        .append("g")
+                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // set bars
+            bar.selectAll(".bar")
+                .data(reviews)
+                .enter()
+                .append("rect")
+                .attr("class", function(d) { return d[1] < 0 ? "bar negative" : "bar positive"; })
+                .attr("x", function(d) { return x(Math.min(0, d[1])); })
+                .attr("y", function(d) { return y(d[0]); })
+                .attr("width", function(d) { return Math.abs(x(d[1]) - x(0));  })
+                .attr("height", 20)
+
+            bar.append("g")
+                .attr("class", "x axis")
+                .call(xAxis);
+
+            bar.append("g")
+                .attr("class", "y axis")
+              .append("line")
+                .attr("x1", x(0))
+                .attr("x2", x(0))
+                .attr("y2", height);
+
+            bar.selectAll(".bartext")
+                .data(reviews)
+                .enter()
+                .append("text")
+                .attr("class", "bartext")
+                .attr("text-anchor", function(d) { return d[1] < 0 ? "left" : "left"; })
+                .attr("fill", "black")
+                .attr("x", function(d, i) { text_x = d[1] < 0 ? -1 * (x(Math.min(0, d[1])) + Math.abs(x(d[1]) - x(0))) + 150 : x(Math.min(0, d[1])) + Math.abs(x(d[1]) - x(0)) + 3; return text_x })
+                .attr("y", function(d) { return y(d[0]) + 15; })
+                .text(function(d) {return d[0];});
+
+            d3.layout.cloud().size([400 + margin.left + margin.right, 200 + margin.top + margin.bottom])
+                .words(reviews)
+                .rotate(0)
+                .fontSize(function(d) { return Math.abs(d[1])*50; })
+                .on("end", draw)
+                .start();
+        }
+
+        function draw(words) {
+            var color_pos = d3.scale.linear()
+                .domain([0,1,2,3,5,10,15,25,30,40,45,50])
+                .range(["#F0F8FF", "#A1CAF1", "#99BADD", "#71A6D2", "#6495ED", "#779ECB", "#5B92E5", "#0047AB", "#0F4D92", "#08457E", "#1560BD", "#002E63"]);
+
+            var color_neg = d3.scale.linear()
+                .domain([0,1,2,3,5,10,15,25,30,40,45,50])
+                .range(["#FF1C00", "#FF0800", "#FF0000", "#CD5C5C", "#E34234", "#D73B3E", "#CE1620", "#CC0000", "#B22222", "#B31B1B", "#A40000", "#800000"]);
+
+            var margin = {top: 50, right: 0, bottom: 10, left: 0};
+
+            d3.select("#chart-review-wordcloud")
+              .append("svg")
+              .attr("id", "svg-chart-review-wordcloud")
+              .attr("width", 400)
+              .attr("height", 200)
+              .attr("class", "wordcloud")
+              .append("g")
+              // without the transform, words words would get cutoff to the left and top, they would
+              // appear outside of the SVG area
+              //.attr("transform", "translate(320,200)")
+              .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+              .selectAll("text")
+              .data(words)
+              .enter().append("text")
+              .style("font-size", function(d) { return Math.abs(d[1])*50 + "px"; })
+              .style("fill", function(d, i) { return d[1] < 0 ? color_neg(i) : color_pos(i); })
+              .attr("transform", function(d) {
+                  return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+              .text(function(d) { return d[0]; });
+        }
+  </script>
+</body>
+</html>
