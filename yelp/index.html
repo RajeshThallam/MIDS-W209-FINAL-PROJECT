@@ -21,6 +21,12 @@
     <!-- DC css-->
     <link href='css/dc.css' rel='stylesheet' type='text/css'>
 
+    <!-- Map css -->
+    <link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
+    <link type="text/css" href="css/MarkerCluster.Default.css" rel="stylesheet"/>
+    <link type="text/css" href="css/MarkerCluster.css" rel="stylesheet"/>
+    <link type="text/css" href="css/leaflet-legend.css" rel="stylesheet"/>
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -232,6 +238,10 @@
             <div class="row">
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal0" class="page-scroll">Neighborhood</a>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="page-scroll">Reviews</a>
                 </div>
 
@@ -259,6 +269,20 @@
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
+    <section id="portfolioModal0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Nearest Neighbors</h2>
+                    <h3 class="section-subheading text-muted">Whats going on in my neighborhood?</h3>
+                </div>
+            </div>
+            <div class="row" id="viz_neighborhood" >
+                <div class="col-md-12 map"></div>
+            </div>
+        </div>
+    </section>
+
     <section id="portfolioModal1">
         <div class="container">
             <div class="col-sm-6">
@@ -278,7 +302,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Checkins</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">How are my customer checkins looking like?</h3>
                 </div>
             </div>
             <div class="row">
@@ -405,10 +429,18 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <!-- Map -->
+    <script type="text/javascript" src="./js/leaflet.js"></script>
+    <script type="text/javascript" src="./js/colorbrewer.js"></script>
+    <!-- Optional -->
+    <script type="text/javascript" src="./js/dc.leaflet.js"></script>
+    <script type="text/javascript" src="./js/leaflet.markercluster.js"></script>
+
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
     <script src="js/reviews.js"></script>
     <script src="js/checkins.js"></script>
+    <script src="js/neighborhood.js"></script>
 
 </body>
 
