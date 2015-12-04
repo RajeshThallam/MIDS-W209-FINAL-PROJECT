@@ -59,6 +59,7 @@ d3.json(url_base_search_count, function(error, data) {
         .yAxisLabel("Number of reviews")
         .xAxisLabel("Year of review")
         .title(function(d){return d.value;})
+        .colors('#FF430D')
         .x(d3.scale.ordinal().domain(d3.range(minYear,maxYear+1)))
         .xUnits(dc.units.ordinal)
         .xAxis().tickFormat(function(v) {return v;});
@@ -113,7 +114,8 @@ d3.json(url_base_search_count, function(error, data) {
         .dimension(reviewDim)
         .group(review_count)
         .elasticX(true)
-        .colors(d3.scale.category10())
+        //.colors(d3.scale.category10())
+        .ordinalColors(['#FF430D','#E8610C','#FF8D00','#E8A00A','#FFCD0D'])
         .label(function (d){
             return d.key.split(".")[1];
         })
