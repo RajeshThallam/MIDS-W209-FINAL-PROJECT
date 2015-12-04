@@ -20,34 +20,50 @@ INDEX_TYPE_USER = 'user'
 INDEX_TYPE_REVIEW = 'review'
 INDEX_TYPE_CHECKIN = 'checkin'
 INDEX_TYPE_TIP = 'tip'
+INDEX_TYPE_TOPIC = 'topic'
 
 index = {
         'types': [
                 {
                     'type': INDEX_TYPE_BUSINESS,
                     'file': 'yelp_academic_dataset_business.json',
-                    'id': 'business_id'
+                    'id': 'business_id',
+                    'update': False
                 },
                 {
                     'type': INDEX_TYPE_USER,
                     'file': 'yelp_academic_dataset_user.json',
-                    'id': 'user_id'
+                    'id': 'user_id',
+                    'update': False
                 },
                 {
                     'type': INDEX_TYPE_REVIEW,
                     'file': 'yelp_academic_dataset_review.json',
-                    'id': 'review_id'
+                    'id': 'review_id',
+                    'update': False
                 },
                 {
                     'type': INDEX_TYPE_CHECKIN,
                     'file': 'yelp_academic_dataset_checkin.json',
-                    'id': 'business_id'
+                    'id': 'business_id',
+                    'update': False
+                },
+                {
+                    'type': INDEX_TYPE_TOPIC,
+                    'file': 'analysis.NV_reviews.json',
+                    'id': 'business_id',
+                    'update': True
                 }
             ]
         }
 
 
-def create_delete_index(index_name):
+def create_delete_index(index_name, create=False):
+
+    if not create:
+        print('### Skipping Index Creation: {0}'.format(index_name))
+        return
+
     try:
         if es.indices.exists(index_name):
             print("deleting '%s' index..." % (index_name))
@@ -126,8 +142,10 @@ def build_index(type, file, id):
 if __name__ == '__main__':
     '''Main Point of Entry to Program'''
     #Create/Drop Index
-    create_delete_index(INDEX_NAME)
+    create_delete_index(INDEX_NAME, create=False)
 
     for type in index['types']:
-        build_index(type['type'], type['file'], type['id'])
-    #index_business()
+        if type['update']:
+            build_index(type['type'], type['file'], type['id'])
+        else:
+            print('~ Skipping Updating Type: {0}'.format(type['type']))
