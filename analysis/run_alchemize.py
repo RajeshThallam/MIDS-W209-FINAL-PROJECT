@@ -59,13 +59,14 @@ def process_review(src_file_name, tgt_file_name):
     word_tokenizer = nltk.tokenize.regexp.RegexpTokenizer(tokenization_pattern)
     porter_stemmer = PorterStemmer()
     wordnet_lemmatizer = WordNetLemmatizer()
+    sw = set(stopwords.words('english'))
 
     # loop through each review and perform cleansing
     for item in process_json(src_file_name):
         # tokenize
         tokens = word_tokenizer.tokenize(item['text'].lower())
         # remove stopwords
-        normalized = [w for w in tokens if w.lower() not in stopwords.words('english')]
+        normalized = [w for w in tokens if w not in sw]
         # stemmer
         #stemmed_reviews.append(' '.join(map(porter_stemmer.stem, normalized)))
         # lemmatize
@@ -105,7 +106,7 @@ def nlp_process(ids,ids_hash, tgt_file_name):
             if len(data) >= 100:
                 # call Alchemy API combined call to determing keywords, sentiment
                 # and concepts (tags)
-                response = alchemyapi.combined('text', data, {'sentiment': 1, 'maxRetrieve': 100})
+                response = alchemyapi.keywords('text', data, {'sentiment': 1, 'maxRetrieve': 100})
 
                 # process response
                 if response['status'] == 'OK':
@@ -117,36 +118,39 @@ def nlp_process(ids,ids_hash, tgt_file_name):
 
                         al_temp['text'] = keyword['text'].encode('utf-8')
                         al_temp['relevance'] = keyword['relevance']
-                        al_temp['sentiment'] = keyword['sentiment']['type']
 
-                        if 'score' in keyword['sentiment']:
-                            al_temp['score'] = keyword['sentiment']['score']
+                        if 'sentiment' in keyword:
+                            al_temp['sentiment'] = keyword['sentiment'].get('type', 'neutral')
+
+                            if 'score' in keyword['sentiment']:
+                                al_temp['score'] = keyword['sentiment']['score']
 
                         alchem_keywords.append(al_temp)
 
                     # process concepts/tags
-                    for keyword in response['concepts']:
-                        al_temp = defaultdict()
+                    #for keyword in response['concepts']:
+                    #    al_temp = defaultdict()
 
-                        al_temp['text'] = keyword['text'].encode('utf-8')
-                        al_temp['relevance'] = keyword['relevance']
+                    #    al_temp['text'] = keyword['text'].encode('utf-8')
+                    #    al_temp['relevance'] = keyword['relevance']
 
-                        alchem_concepts.append(al_temp)
+                    #    alchem_concepts.append(al_temp)
                 else:
                     print('Error in keyword extaction call: ', response['statusInfo'])
                 print len(alchem_keywords), len(alchem_concepts)
 
                 # prepare body for insertion
-                doc = {
-                    "business_id" : business_id,
-                    "stars": star,
-                    "word_freq": alchem_keywords,
-                    "topics": alchem_concepts
-                }
+                if ( len(alchem_keywords) > 0):
+                    doc = {
+                        "business_id" : business_id,
+                        "stars": star,
+                        "word_freq": alchem_keywords,
+                        "topics": alchem_concepts
+                    }
 
-                # write to a file
-                json.dump(doc, outfile)
-                outfile.write('\n')
+                    # write to a file
+                    json.dump(doc, outfile)
+                    outfile.write('\n')
 
 # pretty print nlp results
 def nlp_results(file_name):
@@ -200,7 +204,7 @@ if __name__ == '__main__':
     #src_file_name = os.path.join(DATA_DIR, 'phoenix_bars.json')
     #tgt_file_name = os.path.join(DATA_DIR, 'analysis.phoenix_bars.out')
 
-    src_file_name = os.path.join(DATA_DIR, 'NV_reviews.json')
-    tgt_file_name = os.path.join(DATA_DIR, 'analysis.NV_reviews.out')
+    src_file_name = os.path.join(DATA_DIR, 'NV_reviews.unprocessed.json')
+    tgt_file_name = os.path.join(DATA_DIR, 'analysis.NV_reviews.unprocessed.out')
 
     process_review(src_file_name, tgt_file_name)
