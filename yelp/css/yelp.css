@@ -21,6 +21,10 @@ svg .pumpkin {
     font-size: 11px;
 }
 
+#cat_graph g .row text {
+    fill: black;
+}
+
 #map { height: 400px; width: 800px;}
 /****** Style Star Rating Widget *****/
 
@@ -46,6 +50,7 @@ svg .pumpkin {
 .rating > label {
   color: #ddd;
  float: right;
+
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
