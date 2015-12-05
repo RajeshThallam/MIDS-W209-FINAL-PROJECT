@@ -21,6 +21,35 @@ var review_url = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}},"f
 
 var parseDate = d3.time.format("%Y-%m-%d").parse;
 
+function getMonnth_custom(v){
+    switch(v)
+    {
+        case 1:
+            return 'Jan';
+        case 2:
+            return 'Feb';
+        case 3:
+            return 'Mar';
+        case 4:
+            return 'Apr';
+        case 5:
+            return 'May';
+        case 6:
+            return 'Jun';
+        case 7:
+            return 'Jul';
+        case 8:
+            return 'Aug';
+        case 9:
+            return 'Oct';
+        case 10:
+            return 'Sep';
+        case 11:
+            return 'Nov';
+        case 12:
+            return 'Dec';
+    }
+}
 
 d3.json(url_base_search_count, function(error, data) {
     if (error) throw error;
@@ -79,13 +108,15 @@ d3.json(url_base_search_count, function(error, data) {
         .gap(13)
         .elasticY(true)
         .brushOn(false)
+        .colors('#FF430D')
         .yAxisLabel("Number of reviews")
         .xAxisLabel("Months")
         .title(function(d){return d.value;})
         .x(d3.scale.ordinal().domain(d3.range(1,13)))
         .xUnits(dc.units.ordinal)
-        .xAxis().tickFormat(function(v) {return v;});
-    //.xAxis().tickFormat(d3.time.format('%B'));
+        .xAxis().tickFormat(function(v) {
+            return getMonnth_custom(v);
+            });
 
     //make stars row chart
 
@@ -155,8 +186,8 @@ d3.json(url_base_search_count, function(error, data) {
         .transitionDuration(1500)
         .dimension(yearDim_rating)
         .group(year_avg)
-        //.centerBar(true)
         .gap(13)
+        .colors('#FF430D')
         //.elasticY(true)
         .brushOn(false)
         .yAxisLabel("Average Rating")
@@ -168,6 +199,8 @@ d3.json(url_base_search_count, function(error, data) {
         .x(d3.scale.ordinal().domain(d3.range(minYear,maxYear+1)))
         .xUnits(dc.units.ordinal)
         .xAxis().tickFormat(function(v) {return v;});
+    all_avgBarChart
+        .yAxis().ticks(5);
 
 
     //chart for avergae rating in detail for a selected year
@@ -202,6 +235,7 @@ d3.json(url_base_search_count, function(error, data) {
         .group(monthAvg)
         .gap(13)
         .brushOn(false)
+        .colors('#FF430D')
         .yAxisLabel("Average Rating")
         .xAxisLabel("Months")
         .valueAccessor(function (p) {
@@ -210,6 +244,10 @@ d3.json(url_base_search_count, function(error, data) {
         .title(function(d){return d3.round(d.value.star_avg,2);})
         .x(d3.scale.ordinal().domain(d3.range(1,13)))
         .xUnits(dc.units.ordinal)
+        .xAxis().tickFormat(function(v) {
+            return getMonnth_custom(v);
+        });
+    detailRating_BarChart
         .yAxis().ticks(5);
 
     //Render the graphs
