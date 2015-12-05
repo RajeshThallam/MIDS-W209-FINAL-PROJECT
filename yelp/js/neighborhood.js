@@ -114,12 +114,14 @@ d3.json(url_business_base, function(error, d){
         chart = dc.barChart("#viz_neighborhood_stars");
         chart
             .width(600)
-            .height(300)
+            .height(380)
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
             .elasticX(true)
             .elasticY(true)
-            .brushOn(true)
+            .brushOn(false)
+            .colors('#FF430D')
+            .gap(10)
             .xAxisLabel("Star Ratings of Neighborhood Business")
             .yAxisLabel("Count")
             //.xAxis().tickFormat(function(d) {return day_of_week(d.day)})

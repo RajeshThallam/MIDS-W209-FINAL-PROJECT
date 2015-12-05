@@ -93,6 +93,7 @@ function day_of_week(day) {
   	//var minC = dayDim.bottom(1)[0].checkins;
 	//var maxC = dayDim.top(1)[0].checkins;
 
+	/*
 	chart = dc.pieChart("#viz1");
 	chart
 		.width(300).height(225)
@@ -101,7 +102,7 @@ function day_of_week(day) {
 	    .innerRadius(50)
 	    .label(function(d) { return day_of_week(d.key); });
 	chart.render();
-	
+	*/
   	
   	/*
   	chart
@@ -126,11 +127,13 @@ function day_of_week(day) {
 	    .elasticX(true)
 	    .dimension(dayDim)
 	    .group(checkins_per_day_of_week)
+	    .ordinalColors(['#FF220D','#FF430D','#E8610C','#FF8D00','#E8A00A','#FFCD0D','#FFE834'])
 	    .label(function(d) { return day_of_week(d.key); });
 
 	chart.xAxis().ticks(4);
 	chart.render();
 
+	
 	chart = dc.barChart("#viz3");
   	chart
 	    .width(600)
@@ -145,6 +148,7 @@ function day_of_week(day) {
 	    //.xAxis().tickFormat(function(d) {return day_of_week(d.day)})
 	    .dimension(timeDim)
 	    .group(checkins_per_time_of_day)
+	    .colors('#FF430D')
 	chart.render();
 
 
