@@ -122,7 +122,7 @@ function day_of_week(day) {
 
 	chart = dc.rowChart("#viz2");
   	chart
-	    .width(300)
+	    .width(500)
 	    .height(300)
 	    .elasticX(true)
 	    .dimension(dayDim)
