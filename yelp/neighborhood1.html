@@ -177,6 +177,8 @@
 					    .elasticX(true)
 						.elasticY(true)
 					    .brushOn(true)
+							.gap(13)
+							.colors('#FF430D')
 					    .xAxisLabel("Star Ratings of Neighborhood Business")
 					    .yAxisLabel("Count")
 					    //.xAxis().tickFormat(function(d) {return day_of_week(d.day)})
@@ -254,6 +256,7 @@
 							.elasticX(true)
 							.dimension(categoriesDim)
 							.group(filtered_group)
+							.colors('#FF430D')
 							.ordering(function(d){return -d.value;})
 							.xAxis().ticks(3);
 					barChart_cat
@@ -294,7 +297,7 @@
 							.height(400)
 							.transitionDuration(800)
 							.elasticX(true)
-							//.elasticY(true)
+							.colors('#FF430D')
 							.xUnits(dc.units.ordinal)
 							.x(d3.scale.ordinal().domain(d3.range(5)))
 							.dimension(ratingDim)
