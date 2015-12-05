@@ -113,18 +113,18 @@
             chart = dc.barChart("#viz_neighborhood_stars");
             chart
               .width(600)
-              .height(300)
+              .height(400)
               .x(d3.scale.ordinal())
               .xUnits(dc.units.ordinal)
               .elasticX(true)
-            .elasticY(true)
+              .elasticY(true)
               .brushOn(true)
               .xAxisLabel("Star Ratings of Neighborhood Business")
               .yAxisLabel("Count")
               //.xAxis().tickFormat(function(d) {return day_of_week(d.day)})
               .dimension(starsDim)
               .group(countByStars)
-          chart.render();
+            chart.render();
 
             })
               .header("Content-Type","application/json")
