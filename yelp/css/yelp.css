@@ -56,6 +56,25 @@ svg .pumpkin {
 
 }
 
+
+#custom_yelp_nav li a {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+#custom_yelp_nav li a:hover, li a:focus {
+    color: #fed136;
+    outline: 0;
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 /***** CSS Magic to Highlight Stars on Hover *****/
 
 .rating > input:checked ~ label, /* show gold star when clicked */
