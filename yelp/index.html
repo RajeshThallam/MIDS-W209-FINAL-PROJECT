@@ -76,9 +76,10 @@
                         <!--<a class="page-scroll" href="#explore">Explore</a>-->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="page-scroll" href="#portfolioModal0">Action</a></li>
-                            <li><a class="page-scroll" href="#portfolioModal1">Another action</a></li>
-                            <li><a class="page-scroll" href="#portfolioModal2">Something else here</a></li>
+                            <li><a class="page-scroll" href="#portfolioModal0">NEIGHBORHOOD</a></li>
+                            <li><a class="page-scroll" href="#portfolioModal1">REVIEW</a></li>
+                            <li><a class="page-scroll" href="#portfolioModal2">CHECK IN</a></li>
+                            <li><a class="page-scroll" href="#portfolioModal3">SENTIMENT ANALYSIS</a></li>
                         </ul>
                     </li>
                     <li>
@@ -331,6 +332,30 @@
         </div>
     </section>
 
+    <section id="portfolioModal3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Review Sentiments</h2>
+                    <h3 class="section-subheading text-muted">What are customers talking about my business?</h3>
+                </div>
+            </div>
+            <div class="row">
+              <div id="chart-review-sentiment">
+                <fieldset class="rating">
+                    <text text-anchor="left" fill="black">Ratings</text>
+                    <input type="radio" id="star5" name="rating" value="5" onclick="updateChart(5)"/><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" onclick="updateChart(4)"/><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" onclick="updateChart(3)" checked="checked"/><label class = "full" for="star3" title="Alright - 3 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" onclick="updateChart(2)"/><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" onclick="updateChart(1)"/><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                </fieldset>
+              </div>
+              <div id="chart-review-wordcloud"></div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
@@ -430,6 +455,7 @@
 
     <!-- Viz js-->
     <script src="js/d3.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
     <script src="js/crossfilter.js"></script>
     <script src="js/dc.js"></script>
 
@@ -459,6 +485,7 @@
     <script src="js/reviews.js"></script>
     <script src="js/checkins.js"></script>
     <script src="js/neighborhood.js"></script>
+    <script src="js/sentiment.js"></script>
 
 </body>
 

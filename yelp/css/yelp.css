@@ -31,6 +31,9 @@ svg .pumpkin {
 .rating {
   border: none;
   float: left;
+  margin-left: 500px
+  font: 12px 'Helvetica Neue';
+  font-weight: 400;
 }
 
 .rating > input { display: none; }
@@ -63,3 +66,29 @@ svg .pumpkin {
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.bar.positive {
+  fill: steelblue;
+}
+
+.bar.negative {
+  fill: brown;
+}
+
+.bartext {
+  font: 10px 'Helvetica Neue';
+  font-weight: 400;
+}
+
+.axis text {
+  font: 10px 'Helvetica Neue';
+  font-weight: 400;
+  color: red;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
