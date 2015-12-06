@@ -72,11 +72,11 @@
                     </li>
                     <li class="dropdown">
                         <!--<a class="page-scroll" href="#explore">Explore</a>-->
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="page-scroll" href="#portfolioModal0">Action</a></li>
-                            <li><a class="page-scroll" href="#portfolioModal1">Another action</a></li>
-                            <li><a class="page-scroll" href="#portfolioModal2">Something else here</a></li>
+                        <a href="#" class="dropdown-toggle page-scroll" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="custom_yelp_nav">
+                            <li><a class="page-scroll" href="#portfolioModal0">Neighbourhood</a></li>
+                            <li><a class="page-scroll" href="#portfolioModal1">Reviews</a></li>
+                            <li><a class="page-scroll" href="#portfolioModal2">Checkins</a></li>
                         </ul>
                     </li>
                     <li>
@@ -174,7 +174,7 @@
                                     <h4 class="subheading">Future</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">We plan to do network analysis of user and business data. Need to see how we can incorporate Tips data into sentiment analysis and topic modeling</p>
                                 </div>
                             </div>
                         </li>
@@ -197,34 +197,34 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Story</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
+            <div class="row">
+                <h3 class="section-subheading"></h3>
+                <p>Businesses around the world are paying more and more attention to Yelp which is arguably the Internet’s largest social-local platform, and with good reason. Boasting it’s average 135 million monthly users, dominance in local search engine results, and its controversial ability to shut down businesses over night, Yelp is force to be reckoned with.</p>
+                <p>No business indicator (KPI) works better than effectively listening to the voice of the customer, and precisely the reason to take a closer & deeper look at the yelp ratings & reviews!!!  The purpose of our project is to empower business owners with a capability to find out how they (or their local competitors)  are doing with their business - whats working for them and what is not - at any given point in time.</p>
+                <p>For the purpose of this project, we used the data provided by yelp for their Round 6 Dataset Challenge, which consists of
+                    1.6M reviews; 500K tips by 366K users for 61K businesses across 9 cities and 2 continents. In addition there are 41K business attributes like hours, parking availability etc, and aggregated checkins by users for each of the 61K businesses reviewed.
+                </p>
+                <p>
+                    The data set contains data for the following ciites.
+                    <ul>
+                <li>U.K.: Edinburgh</li>
+                <li>Germany: Karlsruhe</li>
+                <li>Canada: Montreal and Waterloo</li>
+                <li>U.S.: Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison</li>
+            </ul>
+                </p>
+            </div>
+            <div class="row">
+                <h3 class="text-capitalize">Learnings</h3>
+                <br>
+                    <li class="list-group-item-text">Based on the usability testing, we found that yelp does not offer neighborhood analysis which we think is a valuable insight for anyone who is planning to enter a certain neighborhood or has an established business.</li>
+                    </br>
+                    <li class="list-group-item-text">Yelp was lacking detailed charts for checkins, reviews. After analyzing the data we decided to add detail charts for those also.</li>
+                    </br>
+                    <li class="list-group-item-text">One of the things we noted from usability testing was the need for word cloud. Yelp currently lets business owners see the reviews left by users in yelp portal. But this is not scalable over time as the number of reviews of increase. A summary view becomes much more useful at this time.</li>
+                </ul>
             </div>
         </div>
     </section>
