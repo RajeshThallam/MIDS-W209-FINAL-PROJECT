@@ -187,20 +187,29 @@ d3.json(url_business_base, function(error, d){
         }
 
 
-        console.log(categoriesGroup);
+        //console.log(categoriesGroup);
         var rest_cat = d.hits.hits[0].fields.categories
         var filtered_group = remove_bins(categoriesGroup,rest_cat)
         console.log(filtered_group)
 
         var barChart_cat = dc.rowChart("#cat_graph");
         barChart_cat
+            .margins({
+                top: 10,
+                right: 30,
+                bottom: 30,
+                left: 60
+            })
             .renderLabel(true)
-            .height(200)
+            .width(500)
+            .height(300)
             .elasticX(true)
             .dimension(categoriesDim)
+            .colors('#FF430D')
             .group(filtered_group)
             .ordering(function(d){return -d.value;})
-            .xAxis().ticks(3);
+            .xAxis().ticks(3)
+            ;
         barChart_cat
             .render();
 
@@ -232,21 +241,25 @@ d3.json(url_business_base, function(error, d){
             .margins({
                 top: 10,
                 right: 30,
-                bottom: 20,
+                bottom: 30,
                 left: 60
             })
             .renderLabel(true)
-            .height(400)
+            .width(600)
+            .height(300)
             .transitionDuration(800)
             .elasticX(true)
-            //.elasticY(true)
             .xUnits(dc.units.ordinal)
+            .colors('#FF430D')
             .x(d3.scale.ordinal().domain(d3.range(5)))
             .dimension(ratingDim)
             .group(ratingGroup)
             .brushOn(false)
+            .xAxisLabel("Rating")
             .symbolSize(5)
             .clipPadding(5);
+        sctr_chart
+            .yAxisLabel("Number of reviews");
 
         sctr_chart.render();
 
