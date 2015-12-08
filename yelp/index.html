@@ -363,13 +363,13 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Review Sentiments</h2>
-                    <h3 class="section-subheading text-muted">What are customers saying about my business? How can I improve customer service or business effectiveness?</h3>
+                    <h3 class="section-subheading text-muted">What are customers saying about my business? What improvements can be made? How can I make my business effective?</h3>
                 </div>
             </div>
             <div class="row">
-              <div id="chart-review-sentiment">
+              <div id="chart-rating-selector" class="col-lg-12 text-center">
                 <fieldset class="rating">
-                    <text text-anchor="left" fill="black">Ratings</text>
+                    <text text-anchor="left" fill="black">Select Rating</text>
                     <input type="radio" id="star5" name="rating" value="5" onclick="updateChart(5)"/><label class = "full" for="star5" title="Awesome - 5 stars"></label>
                     <input type="radio" id="star4" name="rating" value="4" onclick="updateChart(4)"/><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
                     <input type="radio" id="star3" name="rating" value="3" onclick="updateChart(3)" checked="checked"/><label class = "full" for="star3" title="Alright - 3 stars"></label>
@@ -377,7 +377,11 @@
                     <input type="radio" id="star1" name="rating" value="1" onclick="updateChart(1)"/><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
                 </fieldset>
               </div>
-              <div id="chart-review-wordcloud"></div>
+            </div>
+            <div class="row">
+              <br>
+              <div id="chart-review-sentiment" class="col-md-6"></div>
+              <div id="chart-review-wordcloud" class="col-md-6"></div>
             </div>
         </div>
     </section>
@@ -414,11 +418,11 @@
                         <h4>Jing Xu</h4>
                         <p class="text-muted"></p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li><-->
+                            <li><a href="https://www.linkedin.com/in/jingxu2"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://github.com/jxu87"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -469,7 +473,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-0">
-                    <span class="copyright">Copyright &copy; MIDS W209</span>
+                    <span class="copyright">This project was created as a project for the W209 Data Visualization and Communication class, <br>part of the <a href="http://datascience.berkeley.edu/">Masters in Data Science program</a> at <a href="http://ischool.berkeley.edu/">UC Berkeley School of Information</a>. </span>
                 </div>
                 <div class="col-md-offset-0">
                         <span class="copyright">Website Template <a href="http://startbootstrap.com/template-overviews/agency/">Agency</a> by <a href="http://startbootstrap.com/">Start Bootstrap</a></span>

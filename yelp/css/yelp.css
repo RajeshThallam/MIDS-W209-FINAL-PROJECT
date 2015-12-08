@@ -123,3 +123,7 @@ svg .pumpkin {
   font: 16px 'Helvetica Neue';
   font-weight: 800;
 }
+
+.sentiment-left {
+  float:left; 
+}

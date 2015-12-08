@@ -22,39 +22,40 @@ d3.json(url_sentiment_base, function(error, data){
       });
 
     });
+
+    updateChart(3);
 })
 // post to elasticsearch
   .header("Content-Type","application/json")
   .send("POST", url_sentiment);
 
-updateChart(3);
-
 // event
 function updateChart(rating) {
       // extract required data based on ratings
       var reviews = [];
+      var all_reviews = [];
       parsedReviewTopics.forEach(function(d) {
           if ( d[3] == rating) {
-            reviews.push([d[0], d[1]])
+            all_reviews.push([d[0], d[1]])
           }
       });
 
-      reviews.sort(function(a, b) {
+      all_reviews.sort(function(a, b) {
         return Math.abs(b[1]) - Math.abs(a[1]);
       });
 
-      reviews = reviews.slice([0,19]);
+      reviews = all_reviews.slice(0,19);
 
       // clear previous charts
       d3.select("#svg-chart-review-sentiment").remove();
       d3.select("#svg-chart-review-wordcloud").remove();
 
       // set height of chart based on data
-      var margin = {top: 50, right: 50, bottom: 10, left: 50};
-      var width = 500 - margin.left - margin.right;
+      var margin = {top: 50, right: 20, bottom: 20, left: 20};
+      var width = 400 - margin.left - margin.right;
       //var barHeight = 35 - reviews.length * 0.75 ;
-      var barHeight = 35 - (0.75*reviews.length) ;
-      height = 40 + (barHeight*reviews.length ) - (margin.top + margin.bottom) + (1.1*reviews.length);
+      var barHeight = 40 - (0.75*reviews.length) ;
+      height = 40 + (barHeight*reviews.length ) - (margin.top + margin.bottom) + (1.25*reviews.length);
 
       // set x and y axis
       var x = d3.scale.linear()
@@ -85,7 +86,7 @@ function updateChart(rating) {
           .enter()
           .append("rect")
           .attr("class", function(d) { return d[1] < 0 ? "bar negative" : "bar positive"; })
-          .attr("x", function(d) { console.log(x(Math.min(0, d[1])) + "=x width=" + Math.abs(x(d[1]) - x(0))); return x(Math.min(0, d[1])); })
+          .attr("x", function(d) { return x(Math.min(0, d[1])); })
           .attr("y", function(d) { return y(d[0]); })
           .attr("width", function(d) { return Math.abs(x(d[1]) - x(0));  })
           .attr("height", 20)
@@ -112,7 +113,12 @@ function updateChart(rating) {
           .attr("y", function(d) { return y(d[0]) + 15; })
           .text(function(d) {return d[0];});
 
-      d3.layout.cloud().size([350, 200])
+      bar.append("text")
+          .attr("text-anchor", "middle")
+          .attr("transform", "translate("+ (width/2) +", -40)")
+          .text("(-ve) Sentiment Strength (+ve)");
+
+      d3.layout.cloud().size([400, 250])
           .words(reviews)
           .rotate(0)
           .fontSize(function(d) { return Math.abs(d[1])*40; })
@@ -129,14 +135,14 @@ function updateChart(rating) {
           .domain([0,1,2,3,5,10,15,25,30,40,45,50])
           .range(["#FF1C00", "#FF0800", "#FF0000", "#CD5C5C", "#E34234", "#D73B3E", "#CE1620", "#CC0000", "#B22222", "#B31B1B", "#A40000", "#800000"]);
 
-      var margin = {top: 50, right: 50, bottom: 10, left: 50};
-      var width = 400 - margin.left - margin.right;
-      var height = 250 - margin.top - margin.bottom;
+      var margin = {top: 50, right: 10, bottom: 10, left: 20};
+      var width = 450 - margin.left - margin.right;
+      var height = 300 - margin.top - margin.bottom;
 
       d3.select("#chart-review-wordcloud")
         .append("svg")
         .attr("id", "svg-chart-review-wordcloud")
-        .attr("width", width + margin.left + margin.right)
+        //.attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .attr("class", "wordcloud")
         .append("g")
@@ -151,5 +157,10 @@ function updateChart(rating) {
         .attr("transform", function(d) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
           })
-        .text(function(d) { return d[0]; });
+        .text(function(d) { return d[0]; })
+        .append("text")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (width/2) +", 0)")
+        .text("Top positive and negative words/phrases");
+
   }
