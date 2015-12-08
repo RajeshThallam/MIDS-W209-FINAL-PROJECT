@@ -94,10 +94,11 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Data Viz Studio!</div>
-                <div class="intro-heading">Explore Business Trends using Yelp Data </div>
-                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+            <div class="intro-text background-fade">
+                <div class="intro-heading">Yelp Business Insights</div>
+                <div class="intro-lead-in">Explore and visualize your business trends using Yelp</div>
+                <p class="intro-description">A project aimed to help businesses discover opportunities and maximize their efficiencies using Yelp data - businesses, checkins, reviews, ratings, tips and users. If you would like to learn more please contact <a href="https://www.linkedin.com/in/hetalc">Hetal</a>, <a href="https://www.linkedin.com/in/jingxu2">Jing</a>, <a href="https://www.linkedin.com/in/rajeshthallam">Rajesh</a> or <a href="https://www.linkedin.com/in/sayantansatpati">Sayantan</a>.</p>
+                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
             </div>
         </div>
     </header>
@@ -120,37 +121,10 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Sept 2015</h4>
                                     <h4 class="subheading">Idea</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Our project is to explore and communicate insights from Yelp's businesses, users, reviews and check-ins dataset. Our idea is to perform time-series analysis and look at the various trends for a business over time</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/5.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">Goal</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">The goal of the visualization is to help business understand their performance and rating in the community and show them competitive analysis of other businesses in the same category. If a business is suddenly experiencing a downturn, they can look at the sentiments of what users are expressing in reviews and take that as an indicator to take corrective action.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">Data</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">The data for the project is taken from <a href="http://www.yelp.com/dataset_challenge">Yelp dataset challenge</a></p>
+                                    <p class="text-muted">Our project is to explore and communicate insights from Yelp's businesses, users, reviews and check-ins dataset. Our idea is to perform time-series analysis and look at the various trends for a business over the time.</p>
                                 </div>
                             </div>
                         </li>
@@ -160,16 +134,51 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="subheading">Tools</h4>
+                                    <h4 class="subheading">Goal</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">D3, DC, Leaflet, Elastic Search, Alchemy, AWS</p>
+                                    <p class="text-muted">The goal of the visualization is to help business understand their performance and rating in the neighborhood and show them competitive analysis of other businesses in the same category. If a business is suddenly experiencing a downturn, they can look at the sentiments of what users are expressing in reviews and take that as an indicator to take corrective action.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/5.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Data</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">The data for the project is taken from <a href="http://www.yelp.com/dataset_challenge">Yelp dataset challenge</a> which encompasses 1.6M reviews, 61K businesses, 366K users and 500K tips.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Tools</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                      <ul>
+                                        <li><a href="http://d3js.org/">D3</a> Data Driven Documents</li>
+                                        <li><a href="https://dc-js.github.io/dc.js/">DC.js</a> Charting library on D3</li>
+                                        <li><a href="http://leafletjs.com/">Leaflet</a> for maps</li>
+                                        <li><a href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a> as backend</li>
+                                        <li><a href="http://www.alchemyapi.com/">AlchemyAPI</a> for text analysis</li>
+                                        <li><a href="https://aws.amazon.com/">Amazon Web Services</a> for hosting</li>
+                                      </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -203,8 +212,8 @@
             </div>
             <div class="row">
                 <h3 class="section-subheading"></h3>
-                <p>Businesses around the world are paying more and more attention to Yelp which is arguably the Internet’s largest social-local platform, and with good reason. Boasting it’s average 135 million monthly users, dominance in local search engine results, and its controversial ability to shut down businesses over night, Yelp is force to be reckoned with.</p>
-                <p>No business indicator (KPI) works better than effectively listening to the voice of the customer, and precisely the reason to take a closer & deeper look at the yelp ratings & reviews.The purpose of our project is to empower business owners with a capability to find out how they (or their local competitors)  are doing with their business - whats working for them and what is not - at any given point in time.</p>
+                <p>Businesses around the world are paying more and more attention to Yelp which is arguably the Internet’s largest social-local platform, and with good reason. Boasting it’s average 135 million monthly users, dominance in local search engine results, and its controversial ability to shut down businesses over night, Yelp is a force to be reckoned with.</p>
+                <p>No business indicator (KPI) works better than effectively listening to the voice of the customer, and precisely the reason to take a closer & deeper look at the yelp ratings & reviews. The purpose of our project is to empower business owners with a capability to find out how they (or their local competitors) are doing with their business - whats working for them and what is not - at any given point in time.</p>
                 <p>For the purpose of this project, we used the data provided by yelp for their Round 6 Dataset Challenge, which consists of
                     1.6M reviews; 500K tips by 366K users for 61K businesses across 9 cities and 2 continents. In addition there are 41K business attributes like hours, parking availability etc, and aggregated checkins by users for each of the 61K businesses reviewed.
                 </p>
@@ -221,12 +230,13 @@
             <div class="row">
                 <h3 class="text-capitalize">Learnings</h3>
                 <br>
-                    <li class="list-group-item-text">Based on the usability testing, we found that yelp does not offer neighborhood analysis which we think is a valuable insight for anyone who is planning to enter a certain neighborhood or has an established business.</li>
+                    <ul>
+                    <li class="list-group-item-text">Based on the user interview, we found that yelp does not offer neighborhood analysis which we think is a valuable insight for anyone who is planning to enter a certain neighborhood or has an established business.</li>
                     </br>
-                    <li class="list-group-item-text">Yelp was lacking detailed charts for checkins, reviews. After analyzing the data we decided to add detail charts for those also.</li>
+                    <li class="list-group-item-text">Yelp lacks detailed charts for checkins and reviews. After analyzing the data we decided to add detail charts for those also.</li>
                     </br>
-                    <li class="list-group-item-text">One of the things we noted from usability testing was the need for word cloud. Yelp currently lets business owners see the reviews left by users in yelp portal. But this is not scalable over time as the number of reviews of increase. A summary view becomes much more useful at this time.</li>
-                </ul>
+                    <li class="list-group-item-text">One of the things we noted from user interview was summarization of user reviews as a word or tag cloud or a chart to show sentiment analysis. Yelp currently lets business owners see the reviews left by users in yelp portal. But this is not scalable over time as the number of reviews of increase. A summary view becomes much more useful at this time.</li>
+                    </ul>
             </div>
         </div>
     </section>
@@ -338,7 +348,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Checkins</h2>
-                    <h3 class="section-subheading text-muted">How are my customer checkins looking like?</h3>
+                    <h3 class="section-subheading text-muted">How are my customer checkins looking like? What are popular days and hours? How can I plan my resources for effective customer service?</h3>
                 </div>
             </div>
             <div class="row">
@@ -353,7 +363,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Review Sentiments</h2>
-                    <h3 class="section-subheading text-muted">What are customers talking about my business?</h3>
+                    <h3 class="section-subheading text-muted">What are customers saying about my business? How can I improve customer service or business effectiveness?</h3>
                 </div>
             </div>
             <div class="row">
