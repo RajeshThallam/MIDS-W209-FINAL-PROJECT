@@ -255,7 +255,7 @@ d3.json(url_business_base, function(error, d){
             .dimension(ratingDim)
             .group(ratingGroup)
             .brushOn(false)
-            .xAxisLabel("Rating")
+            .xAxisLabel("Star Rating")
             .symbolSize(5)
             .clipPadding(5);
         sctr_chart

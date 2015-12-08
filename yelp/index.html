@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Yelp Data Visualization</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -95,8 +95,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
+                <div class="intro-lead-in">Welcome To Our Data Viz Studio!</div>
+                <div class="intro-heading">Explore Business Trends using Yelp Data </div>
                 <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
@@ -108,7 +108,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
@@ -124,13 +124,13 @@
                                     <h4 class="subheading">Idea</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Our project is to explore and communicate insights from Yelp's businesses, users, reviews and check-ins dataset. Our idea is to perform time-series analysis and look at the rating trends for a business over time</p>
+                                    <p class="text-muted">Our project is to explore and communicate insights from Yelp's businesses, users, reviews and check-ins dataset. Our idea is to perform time-series analysis and look at the various trends for a business over time</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/5.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -163,7 +163,7 @@
                                     <h4 class="subheading">Tools</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">D3, DC, Elastic Search, AWS</p>
+                                    <p class="text-muted">D3, DC, Leaflet, Elastic Search, Alchemy, AWS</p>
                                 </div>
                             </div>
                         </li>
@@ -204,7 +204,7 @@
             <div class="row">
                 <h3 class="section-subheading"></h3>
                 <p>Businesses around the world are paying more and more attention to Yelp which is arguably the Internet’s largest social-local platform, and with good reason. Boasting it’s average 135 million monthly users, dominance in local search engine results, and its controversial ability to shut down businesses over night, Yelp is force to be reckoned with.</p>
-                <p>No business indicator (KPI) works better than effectively listening to the voice of the customer, and precisely the reason to take a closer & deeper look at the yelp ratings & reviews!!!  The purpose of our project is to empower business owners with a capability to find out how they (or their local competitors)  are doing with their business - whats working for them and what is not - at any given point in time.</p>
+                <p>No business indicator (KPI) works better than effectively listening to the voice of the customer, and precisely the reason to take a closer & deeper look at the yelp ratings & reviews.The purpose of our project is to empower business owners with a capability to find out how they (or their local competitors)  are doing with their business - whats working for them and what is not - at any given point in time.</p>
                 <p>For the purpose of this project, we used the data provided by yelp for their Round 6 Dataset Challenge, which consists of
                     1.6M reviews; 500K tips by 366K users for 61K businesses across 9 cities and 2 continents. In addition there are 41K business attributes like hours, parking availability etc, and aggregated checkins by users for each of the 61K businesses reviewed.
                 </p>
@@ -293,7 +293,10 @@
                 <p></p>
             </div>
             <div class="row">
-                <div class='pie-graph span4' id='cat_graph'>
+                <div>
+                <p class="text-muted text-center">The visualization below shows the yelp catgeories and the distribution of various business within the neighborhood for the selected business.</p>
+                </div>
+                    <div class='pie-graph span4' id='cat_graph'>
                     <p class="text-center">Categories and count of restaurant in each category</p>
                 </div>
                 <div class='pie-graph span4' id='detail_cat_graph'>
@@ -307,6 +310,7 @@
         <div class="container">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-center">Reviews</h2>
+                <h3 class="section-subheading text-muted">How are my reviews trending over the years?</h3>
             </div>
             <div class="col-sm-6">
                 <div class='pie-graph span4' id="chart-all_year_review">
@@ -375,7 +379,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
@@ -383,7 +387,7 @@
                     <div class="team-member">
                         <img src="img/team/hetal.jpg" class="img-responsive img-circle" alt="">
                         <h4>Hetal Chandaria</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <p class="text-muted"></p>
                         <ul class="list-inline social-buttons">
                             <li><a href="https://twitter.com/hchandaria"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -442,7 +446,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -453,7 +457,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-0">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; MIDS W209</span>
                 </div>
                 <div class="col-md-offset-0">
                         <span class="copyright">Website Template <a href="http://startbootstrap.com/template-overviews/agency/">Agency</a> by <a href="http://startbootstrap.com/">Start Bootstrap</a></span>
