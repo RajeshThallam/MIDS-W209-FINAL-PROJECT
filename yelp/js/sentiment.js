@@ -12,10 +12,10 @@ d3.json(url_sentiment_base, function(error, data){
 
     var stars;
     // extract required data
-    data.hits.hits.forEach(function(d) {
-      stars = +d._source.stars;
+    data.hits.hits[0]._source.topics.forEach(function(d) {
+      stars = +d.stars;
 
-      d._source.word_freq.forEach(function(k) {
+      d.word_freq.forEach(function(k) {
         if (k.sentiment != 'neutral') {
           parsedReviewTopics.push([k.text, +k.score, k.sentiment, stars]);
         }

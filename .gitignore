@@ -13,3 +13,9 @@ Thumbs.db
 .classpath
 .project
 .settings
+
+analysis/.ipynb_checkpoints/Yelp Review Analyzer-checkpoint.ipynb
+
+analysis/alchemyapi.pyc
+
+analysis/api_key.txt

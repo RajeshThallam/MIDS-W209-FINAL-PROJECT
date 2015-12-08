@@ -257,6 +257,7 @@ d3.json(url_business_base, function(error, d){
             .brushOn(false)
             .xAxisLabel("Star Rating")
             .symbolSize(5)
+            ._rangeBandPadding(1)
             .clipPadding(5);
         sctr_chart
             .yAxisLabel("Number of reviews");
