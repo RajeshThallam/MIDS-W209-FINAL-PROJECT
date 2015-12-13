@@ -1,5 +1,5 @@
 // Base Elastic Search URL
-url_business_base = "http://54.183.182.71:9200/yelp/business/_search?size=2000"
+//url_business_base = "http://54.183.182.71:9200/yelp/business/_search?size=2000"
 
 function print_filter(filter){
     var f=eval(filter);
@@ -38,14 +38,14 @@ var myIcon = L.icon({
 
 
 /* Get the lat/lon */
-url_1 = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}},"fields":["longitude","latitude","categories"]}'
+//url_1 = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}},"fields":["longitude","latitude","categories"]}'
 
 
 var lat = null;
 var lon = null;
 var url_2 = null;
 
-d3.json(url_business_base, function(error, d){
+d3.json('./json/business_4bEjOyTaDG24SY5TxsaUNQ.json', function(error, d){
     if (error) {  //If error is not null, something went wrong.
         console.log(error);  //Log the error.
     } else {      //If no error, the file loaded correctly. Yay!
@@ -62,10 +62,10 @@ d3.json(url_business_base, function(error, d){
 
     /* Get neighborhood businesses */
 
-    url_2 = '{"query":{"filtered":{"query":{"match":{"categories":{"query":"' + categories + '","minimum_should_match":1}}},"filter":{"geo_distance":{"distance":"1km","location":{"lat":' + lat + ',"lon":' + lon + '}}}}},"fields":["name","longitude","latitude","categories","stars","review_count"]}'
-    console.log(url_2);
+    //url_2 = '{"query":{"filtered":{"query":{"match":{"categories":{"query":"' + categories + '","minimum_should_match":1}}},"filter":{"geo_distance":{"distance":"1km","location":{"lat":' + lat + ',"lon":' + lon + '}}}}},"fields":["name","longitude","latitude","categories","stars","review_count"]}'
+    //console.log(url_2);
 
-    d3.json(url_business_base, function(error, d){
+    d3.json('./json/neighborhood.json', function(error, d){
         if (error) {  //If error is not null, something went wrong.
             console.log(error);  //Log the error.
         } else {      //If no error, the file loaded correctly. Yay!
@@ -267,9 +267,9 @@ d3.json(url_business_base, function(error, d){
 
 
     })
-        .header("Content-Type","application/json")
-        .send("POST", url_2)
+        //.header("Content-Type","application/json")
+        //.send("POST", url_2)
 
 })
-    .header("Content-Type","application/json")
-    .send("POST", url_1)
+    //.header("Content-Type","application/json")
+    //.send("POST", url_1)

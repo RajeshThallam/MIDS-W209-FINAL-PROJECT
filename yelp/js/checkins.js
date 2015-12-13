@@ -1,6 +1,6 @@
 // Base Elastic Search URL
-url_base_search = "http://54.183.182.71:9200/yelp/review/_search?size=5000"
-url_base_search_count = "http://54.183.182.71:9200/yelp/review/_search?search_type=count&size=5000"
+//url_base_search = "http://54.183.182.71:9200/yelp/review/_search?size=5000"
+//url_base_search_count = "http://54.183.182.71:9200/yelp/review/_search?search_type=count&size=5000"
 
 //Width and height
 var w = 1400;
@@ -47,9 +47,9 @@ function day_of_week(day) {
 	return day;
 }
 
-	url_base_checkin = "http://54.183.182.71:9200/yelp/checkin/_search?size=5000"
-	url_4 = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}}}'
-	d3.json(url_base_checkin, function(error, d){
+	//url_base_checkin = "http://54.183.182.71:9200/yelp/checkin/_search?size=5000"
+	//url_4 = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}}}'
+	d3.json('./json/checkins.json', function(error, d){
 	if (error) {  //If error is not null, something went wrong.
       console.log(error);  //Log the error.
     } else {      //If no error, the file loaded correctly. Yay!
@@ -154,5 +154,5 @@ function day_of_week(day) {
 
 
 })
-.header("Content-Type","application/json")
-	.send("POST", url_4)
+//.header("Content-Type","application/json")
+//.send("POST", url_4)

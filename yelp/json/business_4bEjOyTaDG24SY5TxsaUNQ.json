@@ -1,0 +1,24 @@
+{
+  "took" : 1,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1,
+    "max_score" : 7.2022347,
+    "hits" : [ {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "4bEjOyTaDG24SY5TxsaUNQ",
+      "_score" : 7.2022347,
+      "fields" : {
+        "longitude" : [ -115.172588519464 ],
+        "latitude" : [ 36.1129524773428 ],
+        "categories" : [ "Breakfast & Brunch", "Steakhouses", "French", "Restaurants" ]
+      }
+    } ]
+  }
+}

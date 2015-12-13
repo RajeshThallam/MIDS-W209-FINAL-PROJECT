@@ -1,11 +1,11 @@
 var parsedReviewTopics = [];
 
 // setting up elastic search url's
-var url_sentiment_base = "http://54.183.182.71:9200/yelp/topic/_search?size=2000"
-var url_sentiment = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}}}'
+//var url_sentiment_base = "http://54.183.182.71:9200/yelp/topic/_search?size=2000"
+//var url_sentiment = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}}}'
 
 // load json (eventually from elasticsearch)
-d3.json(url_sentiment_base, function(error, data){
+d3.json('./json/sentiment.json', function(error, data){
     if (error) throw error;
 
     console.log(data);
@@ -26,8 +26,8 @@ d3.json(url_sentiment_base, function(error, data){
     updateChart(3);
 })
 // post to elasticsearch
-  .header("Content-Type","application/json")
-  .send("POST", url_sentiment);
+  //.header("Content-Type","application/json")
+  //.send("POST", url_sentiment);
 
 // event
 function updateChart(rating) {

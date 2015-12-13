@@ -1,0 +1,3849 @@
+{
+  "took" : 13,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 295,
+    "max_score" : 8.174128,
+    "hits" : [ {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "4bEjOyTaDG24SY5TxsaUNQ",
+      "_score" : 8.174128,
+      "fields" : {
+        "name" : [ "Mon Ami Gabi" ],
+        "review_count" : [ 4578 ],
+        "categories" : [ "Breakfast & Brunch", "Steakhouses", "French", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172588519464 ],
+        "latitude" : [ 36.1129524773428 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "vW4G1hwiW6LkuhAfbeRfqg",
+      "_score" : 4.242536,
+      "fields" : {
+        "name" : [ "Le Cafe Ile Saint Louis" ],
+        "review_count" : [ 338 ],
+        "categories" : [ "Food", "Coffee & Tea", "Breakfast & Brunch", "French", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.170958 ],
+        "latitude" : [ 36.112535 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ASOiJ8MmbBTgK2D1_MQrqg",
+      "_score" : 3.2911732,
+      "fields" : {
+        "name" : [ "Eiffel Tower Restaurant" ],
+        "review_count" : [ 888 ],
+        "categories" : [ "Steakhouses", "French", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.174189275928 ],
+        "latitude" : [ 36.1104848411617 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "DAha3IRYbGJh0UbvMHJ77w",
+      "_score" : 2.8062341,
+      "fields" : {
+        "name" : [ "Denny's Restaurant" ],
+        "review_count" : [ 76 ],
+        "categories" : [ "Breakfast & Brunch", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1727677 ],
+        "latitude" : [ 36.1040794 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_LsGlbpybDbENusCXuEpyQ",
+      "_score" : 2.455455,
+      "fields" : {
+        "name" : [ "JJ's Boulangerie" ],
+        "review_count" : [ 122 ],
+        "categories" : [ "Bakeries", "Food", "Breakfast & Brunch", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171207 ],
+        "latitude" : [ 36.111721 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "AOCSNRE0-tF18BOPsiWkLg",
+      "_score" : 2.455455,
+      "fields" : {
+        "name" : [ "Cafe at Harrah's" ],
+        "review_count" : [ 78 ],
+        "categories" : [ "Breakfast & Brunch", "American (Traditional)", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.169667 ],
+        "latitude" : [ 36.11949 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "QbmcCE_cLq4WO8ZMKImaLw",
+      "_score" : 2.455455,
+      "fields" : {
+        "name" : [ "Hash House A Go Go" ],
+        "review_count" : [ 2110 ],
+        "categories" : [ "Breakfast & Brunch", "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.171244539805 ],
+        "latitude" : [ 36.11788299478 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "bGj9djLAHjNR55OXsIDrAg",
+      "_score" : 2.1046758,
+      "fields" : {
+        "name" : [ "ARIA Cafe" ],
+        "review_count" : [ 434 ],
+        "categories" : [ "Breakfast & Brunch", "American (New)", "Cafes", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.176129437604 ],
+        "latitude" : [ 36.1073273137553 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "-u0m2QhmIUYJU22psWo46Q",
+      "_score" : 2.1046758,
+      "fields" : {
+        "name" : [ "Overlook Grill" ],
+        "review_count" : [ 64 ],
+        "categories" : [ "Seafood", "American (Traditional)", "Breakfast & Brunch", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.174133874097 ],
+        "latitude" : [ 36.1096329632651 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "nZgYNbl1XlZyyKlISMoG6w",
+      "_score" : 2.1046758,
+      "fields" : {
+        "name" : [ "Sugar Factory American Brasserie" ],
+        "review_count" : [ 744 ],
+        "categories" : [ "Breakfast & Brunch", "Bars", "American (New)", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172531604767 ],
+        "latitude" : [ 36.112015261401 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ateowLnq6kpgNNWHzCDByQ",
+      "_score" : 2.1046758,
+      "fields" : {
+        "name" : [ "Guy Fieri" ],
+        "review_count" : [ 672 ],
+        "categories" : [ "Burgers", "Breakfast & Brunch", "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1726 ],
+        "latitude" : [ 36.118793 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "IaUXrUfy2iYrR6dHgvTpUg",
+      "_score" : 1.7538964,
+      "fields" : {
+        "name" : [ "Market Cafe Vdara" ],
+        "review_count" : [ 100 ],
+        "categories" : [ "Food", "Juice Bars & Smoothies", "Breakfast & Brunch", "Cafes", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1784884 ],
+        "latitude" : [ 36.1092406 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "NxsCqQCpofRx08m535JYIA",
+      "_score" : 1.6071612,
+      "fields" : {
+        "name" : [ "Comme Ça" ],
+        "review_count" : [ 493 ],
+        "categories" : [ "French", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1738726 ],
+        "latitude" : [ 36.1097544 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "4EhFsjWBSaSp_5TkkLp7LA",
+      "_score" : 1.6071612,
+      "fields" : {
+        "name" : [ "Le Cirque" ],
+        "review_count" : [ 397 ],
+        "categories" : [ "French", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175263026343 ],
+        "latitude" : [ 36.1131265600234 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "equkECCa5WxzICTJr3YpBg",
+      "_score" : 1.6071612,
+      "fields" : {
+        "name" : [ "Lutece Restaurant" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "French", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "gVYju3XRcO1R4aNk7SZJcA",
+      "_score" : 1.6071612,
+      "fields" : {
+        "name" : [ "Guy Savoy" ],
+        "review_count" : [ 199 ],
+        "categories" : [ "French", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.174741744995 ],
+        "latitude" : [ 36.1159328579471 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "V9euJerhCkh7PXKjtsE2rQ",
+      "_score" : 1.6071612,
+      "fields" : {
+        "name" : [ "Payard Pâtisserie & Bistro" ],
+        "review_count" : [ 464 ],
+        "categories" : [ "French", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175013638654 ],
+        "latitude" : [ 36.1172428598278 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "yUel9_nzXD4MgxU2xZAtyQ",
+      "_score" : 1.6071612,
+      "fields" : {
+        "name" : [ "Pinot Brasserie Bakery" ],
+        "review_count" : [ 3 ],
+        "categories" : [ "French", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "j0Cwi0GmIFEC5g9lHmWb-A",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Bally's Steakhouse" ],
+        "review_count" : [ 68 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727367 ],
+        "latitude" : [ 36.1142391 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Hieqsu3u1peZ2I2jPwiKHw",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Jean Georges Steakhouse" ],
+        "review_count" : [ 376 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.178582668304 ],
+        "latitude" : [ 36.1062771898564 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "C_lTRsrL5LQAyd3_fnoBdg",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Steakhouse 46" ],
+        "review_count" : [ 20 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1713943 ],
+        "latitude" : [ 36.1156902 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ROlYDMi1U3LaHStmuELRxQ",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Outback Steakhouse" ],
+        "review_count" : [ 83 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1717867 ],
+        "latitude" : [ 36.1207056 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "2oRj5Qh18pCMPlvHFmyoow",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Old Homestead Steakhouse" ],
+        "review_count" : [ 164 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.175010956445 ],
+        "latitude" : [ 36.1169221843087 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "mDdqifuTrfXAOfxiLMGu5Q",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Gordon Ramsay Steak" ],
+        "review_count" : [ 1542 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.174907432855 ],
+        "latitude" : [ 36.1176319105807 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "U8pLRrR-17w74U5cWLDWmA",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Ruth's Chris Steak House" ],
+        "review_count" : [ 116 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172197179713 ],
+        "latitude" : [ 36.1195756554537 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Ft2G2rrmtM5WwVRssrQZNg",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "BLT Steak" ],
+        "review_count" : [ 66 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1727367 ],
+        "latitude" : [ 36.1142391 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "QRXv7Jvq_SuiiT_SKvbdig",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "STK Las Vegas" ],
+        "review_count" : [ 702 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1744150304 ],
+        "latitude" : [ 36.109699457047 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "C7o7x_Gz-iNGNGNPZx28bw",
+      "_score" : 1.5457258,
+      "fields" : {
+        "name" : [ "Center Cut Steakhouse" ],
+        "review_count" : [ 81 ],
+        "categories" : [ "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172159768262 ],
+        "latitude" : [ 36.1164368350865 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "JS9Bao1vDxM2BGWMYjEavA",
+      "_score" : 1.2857289,
+      "fields" : {
+        "name" : [ "Le Provencal" ],
+        "review_count" : [ 131 ],
+        "categories" : [ "Italian", "French", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.170578956604 ],
+        "latitude" : [ 36.1125006379512 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "UO80ofDOenKF4QWR2z-oKA",
+      "_score" : 1.2857289,
+      "fields" : {
+        "name" : [ "Andre's" ],
+        "review_count" : [ 248 ],
+        "categories" : [ "American (Traditional)", "French", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.17452716827401 ],
+        "latitude" : [ 36.104612897335 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "d38y2fkW1542SaoSTvE1og",
+      "_score" : 1.2857289,
+      "fields" : {
+        "name" : [ "La Creperie" ],
+        "review_count" : [ 324 ],
+        "categories" : [ "Creperies", "French", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1713514328 ],
+        "latitude" : [ 36.1125266401802 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "-5RN56jH78MV2oquLV_G8g",
+      "_score" : 1.2857289,
+      "fields" : {
+        "name" : [ "Picasso" ],
+        "review_count" : [ 532 ],
+        "categories" : [ "Bars", "Nightlife", "French", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "AdEFp9zXwOO84mc1OC37aA",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Off The Strip Bistro & Bar" ],
+        "review_count" : [ 26 ],
+        "categories" : [ "Steakhouses", "American (New)", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.171137864876 ],
+        "latitude" : [ 36.1173370000104 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Q5Ndbf-kGsUMAQrG8aoDkw",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Beso Steakhouse" ],
+        "review_count" : [ 137 ],
+        "categories" : [ "Steakhouses", "Diners", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173179 ],
+        "latitude" : [ 36.108999 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ruMC34ovVAfUiULxCa3Myw",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Neros" ],
+        "review_count" : [ 62 ],
+        "categories" : [ "Seafood", "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173336 ],
+        "latitude" : [ 36.119556 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Bt7lGzIlPGc13iCXoc-TIw",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Prime" ],
+        "review_count" : [ 430 ],
+        "categories" : [ "Bars", "Steakhouses", "Nightlife", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "7K9SJDy5Y0iLtCBCKbvS0w",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Commander's Palace" ],
+        "review_count" : [ 22 ],
+        "categories" : [ "Cajun/Creole", "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.1727107 ],
+        "latitude" : [ 36.1094088 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "LLDGTT7FExklkQvHebEjRg",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Joe's Seafood Prime Steak & Stone Crab" ],
+        "review_count" : [ 1023 ],
+        "categories" : [ "Seafood", "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1766881 ],
+        "latitude" : [ 36.1174528 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "wQgdpcqcA0HgDVZvrOk7Yw",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Kokomo's Steak & Seafood" ],
+        "review_count" : [ 143 ],
+        "categories" : [ "Seafood", "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17404204278 ],
+        "latitude" : [ 36.121360552785 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "CR9v7-hJAUi1E1MePCCCeg",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Alan Albert's" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Seafood", "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.1727803 ],
+        "latitude" : [ 36.1050656 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "btp0v0Qk7CmOmuMdt3aqkQ",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Smith & Wollensky" ],
+        "review_count" : [ 323 ],
+        "categories" : [ "Seafood", "Steakhouses", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727668 ],
+        "latitude" : [ 36.1046486 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "mVJIPDv-qfYlatHYeP_saQ",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Strip House Steak House" ],
+        "review_count" : [ 286 ],
+        "categories" : [ "Food", "Desserts", "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172052479901 ],
+        "latitude" : [ 36.1101183545379 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "1U1GRksKXF7q8FKcW0e5VQ",
+      "_score" : 1.2365807,
+      "fields" : {
+        "name" : [ "Mastro's Ocean Club" ],
+        "review_count" : [ 732 ],
+        "categories" : [ "Seafood", "Steakhouses", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.174055099487 ],
+        "latitude" : [ 36.1079241112865 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "1nO6ffHEwZYFBzEsyw1w7w",
+      "_score" : 1.0820081,
+      "fields" : {
+        "name" : [ "FIX" ],
+        "review_count" : [ 417 ],
+        "categories" : [ "Steakhouses", "Seafood", "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "5IWu0xhlZEopvIz3w7o_3w",
+      "_score" : 1.0820081,
+      "fields" : {
+        "name" : [ "Palm Restaurant" ],
+        "review_count" : [ 401 ],
+        "categories" : [ "Seafood", "Steakhouses", "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.176032 ],
+        "latitude" : [ 36.118329 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "qpo6O2Ozbrn8wFnoCM4slA",
+      "_score" : 1.0820081,
+      "fields" : {
+        "name" : [ "P.J. Clarke's New York Chophouse" ],
+        "review_count" : [ 236 ],
+        "categories" : [ "Seafood", "Steakhouses", "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172945 ],
+        "latitude" : [ 36.118399 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "A-wbnt6g19IWirBswkzsig",
+      "_score" : 0.9274355,
+      "fields" : {
+        "name" : [ "Samba" ],
+        "review_count" : [ 196 ],
+        "categories" : [ "Food", "Steakhouses", "Restaurants", "Beer, Wine & Spirits", "Brazilian" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174633683001 ],
+        "latitude" : [ 36.1211173923547 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "U6stLkJYMaro_4-3KI84_Q",
+      "_score" : 0.9274355,
+      "fields" : {
+        "name" : [ "Brand Steakhouse" ],
+        "review_count" : [ 373 ],
+        "categories" : [ "Bars", "Steakhouses", "American (Traditional)", "Nightlife", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175206 ],
+        "latitude" : [ 36.104801 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "JsDZZ9S3qntzCfo5N_Ci6A",
+      "_score" : 0.9274355,
+      "fields" : {
+        "name" : [ "Yellowtail" ],
+        "review_count" : [ 520 ],
+        "categories" : [ "Food", "Beer, Wine & Spirits", "Steakhouses", "Japanese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "dRas-lkshHzfN3kY8chwcA",
+      "_score" : 0.9274355,
+      "fields" : {
+        "name" : [ "Tom Colicchio's Heritage Steak" ],
+        "review_count" : [ 172 ],
+        "categories" : [ "Food", "Beer, Wine & Spirits", "Steakhouses", "Diners", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.173999714753 ],
+        "latitude" : [ 36.1216084937287 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "3jg7ixB6vZi9M_-Qh8Eoiw",
+      "_score" : 0.32819417,
+      "fields" : {
+        "name" : [ "Very Venice" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "-QeIJtqNsJKQxd9UQKVpRw",
+      "_score" : 0.32819417,
+      "fields" : {
+        "name" : [ "Good2Go" ],
+        "review_count" : [ 3 ],
+        "categories" : [ "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.170482 ],
+        "latitude" : [ 36.116574 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "B7eIQTJsarJjtl3jbj0rGA",
+      "_score" : 0.32819417,
+      "fields" : {
+        "name" : [ "Paris Brasserie" ],
+        "review_count" : [ 5 ],
+        "categories" : [ "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.171282 ],
+        "latitude" : [ 36.11289 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "xRMs3UUNIzUEyt8UBX06SQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Martorano's" ],
+        "review_count" : [ 21 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.170931160577 ],
+        "latitude" : [ 36.1100636266324 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FvDa81O48IZx_LhjSiv_bQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Border Grill" ],
+        "review_count" : [ 50 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.1763486 ],
+        "latitude" : [ 36.1173156 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Zlv0RZR5cFS5NzeXteuUjg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Earl of Sandwich" ],
+        "review_count" : [ 7 ],
+        "categories" : [ "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.175836421549 ],
+        "latitude" : [ 36.117724204858 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "F14WDg0i6yZwXbflJ8ndaw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Di Fara Pizza" ],
+        "review_count" : [ 3 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.177901 ],
+        "latitude" : [ 36.1171675 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "rQ7arVWx_IfTXbnWBfqG9w",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Kapit Bahay" ],
+        "review_count" : [ 49 ],
+        "categories" : [ "Filipino", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1721927 ],
+        "latitude" : [ 36.1068162 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "CJ8IURVsHxTIu2Kzp2Kumw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Emperor's Buffet" ],
+        "review_count" : [ 58 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 1.5 ],
+        "longitude" : [ -115.170129 ],
+        "latitude" : [ 36.118346 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "zTCCbg7mGslxACL5KlAPIQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "The Buffet at ARIA" ],
+        "review_count" : [ 1125 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.17698 ],
+        "latitude" : [ 36.107406 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "a4cMKOjdVLTmJNhRl6-17g",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Lemongrass" ],
+        "review_count" : [ 461 ],
+        "categories" : [ "Thai", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.175769949237 ],
+        "latitude" : [ 36.1077099028034 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "8Pzdk19tA2bKlKDSgwWqoQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Scarpetta" ],
+        "review_count" : [ 709 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.174355506897 ],
+        "latitude" : [ 36.1098050266809 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "N8uXuqa_Pee3PuUD_oU8EQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "The Burger Joint" ],
+        "review_count" : [ 98 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1713943 ],
+        "latitude" : [ 36.1156902 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FdFyXE6qgDSNGyfVzTsJmA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Bella Panini" ],
+        "review_count" : [ 24 ],
+        "categories" : [ "Sandwiches", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.169758 ],
+        "latitude" : [ 36.121558 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "bCRrLdBLel3y73tA8w6C3Q",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Beijing Noodle No. 9" ],
+        "review_count" : [ 449 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.177875 ],
+        "latitude" : [ 36.11706 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_6gbnNRPIc-iM_0cBLPX1A",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Estiatorio Milos" ],
+        "review_count" : [ 539 ],
+        "categories" : [ "Greek", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173887 ],
+        "latitude" : [ 36.109883 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "eq6lQI039SBLC6sHm3idGA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Secret Pizza" ],
+        "review_count" : [ 2105 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.174849630407 ],
+        "latitude" : [ 36.1115194284306 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "zt1TpTuJ6y9n551sw9TaEg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Wicked Spoon" ],
+        "review_count" : [ 3828 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.175163842358 ],
+        "latitude" : [ 36.1098756592764 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "wZxrcIHmkhT4OHvIxPwd_A",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "D.O.C.G. Enoteca" ],
+        "review_count" : [ 242 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1732212 ],
+        "latitude" : [ 36.1092162 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "xheJf3qJLLf4-Ck8ay3GFg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Cabo Wabo Cantina" ],
+        "review_count" : [ 560 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172525650237 ],
+        "latitude" : [ 36.1112986503011 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "uFi6gZIorIy9WGkCxnGrdQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Wasabi Jane's Rice & Noodle Works" ],
+        "review_count" : [ 20 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.171338 ],
+        "latitude" : [ 36.121239 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "VnTREYYq-cquQ3f2re8iBg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Blossom" ],
+        "review_count" : [ 123 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17708711983 ],
+        "latitude" : [ 36.106763122932 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_PuhheIPgmDCBJe1nhpKTg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Tuscany Gardens" ],
+        "review_count" : [ 48 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.161534 ],
+        "latitude" : [ 36.11292 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "cRfn_vMQ9YExuKb378CwjQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Buffet of Buffets" ],
+        "review_count" : [ 317 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1726202 ],
+        "latitude" : [ 36.1183787 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "BUpMSaHWxlWTgKTDIzz5Lw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "KGB: Kerry's Gourmet Burgers" ],
+        "review_count" : [ 363 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1726202 ],
+        "latitude" : [ 36.1183787 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "0_LZEAYsexEZS-OFTjdjNQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Flavors The Buffet" ],
+        "review_count" : [ 390 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172435045352 ],
+        "latitude" : [ 36.1199282583936 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "rBPQuQgTcMtUq5-RYhY2uQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Le Village Buffet" ],
+        "review_count" : [ 1424 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.169968852855 ],
+        "latitude" : [ 36.1129302793928 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "tcphcsPONrP82kUyvcELoA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Noodle Asia" ],
+        "review_count" : [ 603 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17106 ],
+        "latitude" : [ 36.12008 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "dl5K9Hc2kUcGcrVIQAOhWQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Sterling Brunch" ],
+        "review_count" : [ 221 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17099 ],
+        "latitude" : [ 36.114355 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "SLyacGZuMUKqrQJEooSkjw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Spice Market Buffet" ],
+        "review_count" : [ 1163 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171666064417 ],
+        "latitude" : [ 36.1102503133479 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "TUTmH5K7aTOkC5E77EZEGQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Big Kitchen Buffet" ],
+        "review_count" : [ 14 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1684081 ],
+        "latitude" : [ 36.1135342 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "PdZj1gylTC5AaTO21eOYcA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Ah Sin" ],
+        "review_count" : [ 87 ],
+        "categories" : [ "Japanese", "Restaurants" ],
+        "stars" : [ 1.5 ],
+        "longitude" : [ -115.1712045 ],
+        "latitude" : [ 36.1116957 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "2dioqPw6txEgB397frYg-A",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Tamba" ],
+        "review_count" : [ 275 ],
+        "categories" : [ "Indian", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17204 ],
+        "latitude" : [ 36.106542 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "zMF2awzHDj3Q7CeH_Xojww",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Wasabi Jane's Venetiaen" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Japanese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.169617 ],
+        "latitude" : [ 36.121428 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "LOef7o-dnn7Z5qGMZCi6pw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Circo" ],
+        "review_count" : [ 200 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "q35bospqfYhJfMsqE79NvA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Dragon Noodle Co." ],
+        "review_count" : [ 156 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.174037 ],
+        "latitude" : [ 36.105289 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "KTAQQKnft5CBMd2pW-xbBw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Market City Caffe" ],
+        "review_count" : [ 10 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1732166 ],
+        "latitude" : [ 36.1041893 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "POEsTJBWFSSdWWR9PVLACg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Nestle Tollhouse Cafe" ],
+        "review_count" : [ 19 ],
+        "categories" : [ "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727107 ],
+        "latitude" : [ 36.1094088 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "1bJjWGYip-V2PGj4VIwbiQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Battista's Hole In the Wall" ],
+        "review_count" : [ 475 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1679198 ],
+        "latitude" : [ 36.115471 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "MlzFZFBm6xhW_eHTTEM3uA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Manchu Wok" ],
+        "review_count" : [ 12 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 1.5 ],
+        "longitude" : [ -115.172213 ],
+        "latitude" : [ 36.105762 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "SSbId_gHGjtXWnObc_S0nw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Oyster Bay Seafood" ],
+        "review_count" : [ 111 ],
+        "categories" : [ "Seafood", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1727107 ],
+        "latitude" : [ 36.1094088 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "TwxHMCcRdF_CQb_EZ6kPQQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Canaletto" ],
+        "review_count" : [ 363 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.169651 ],
+        "latitude" : [ 36.121176 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "gsQ1ZB3nzUCo93kqougigA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Cheeseburger" ],
+        "review_count" : [ 226 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1726313 ],
+        "latitude" : [ 36.1094391 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_zrSQdISpB_qry9tb098rw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Rao's" ],
+        "review_count" : [ 448 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.176439563057 ],
+        "latitude" : [ 36.1163674508362 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_b9r3punxdaieKCGsIoS3w",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Rosewood Grille" ],
+        "review_count" : [ 14 ],
+        "categories" : [ "Seafood", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.1727803 ],
+        "latitude" : [ 36.1050656 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "rwgU2XEFJ7nyCHvUnEC5ww",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "La Salsa Cantina" ],
+        "review_count" : [ 167 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172276956619 ],
+        "latitude" : [ 36.1101319477719 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "6gm0pYy-YQRJwtavzlXUJw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Burger Palace" ],
+        "review_count" : [ 34 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.172435 ],
+        "latitude" : [ 36.1181689 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "TWCrD7hDDDeCICyQ32NyhQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Pizza Palace" ],
+        "review_count" : [ 9 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172532 ],
+        "latitude" : [ 36.118221 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "fQ1H-QJ1fHeFa87DswxTmA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Burger King" ],
+        "review_count" : [ 12 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172557 ],
+        "latitude" : [ 36.1156338 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "qDxxag8rkdE1CkrLdweiKw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Betty's Diner Cyber Cafe" ],
+        "review_count" : [ 11 ],
+        "categories" : [ "Diners", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172532 ],
+        "latitude" : [ 36.118221 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "O9ro4MvZ7LDQC76zLEg7AQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Ming's Table" ],
+        "review_count" : [ 38 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.169667 ],
+        "latitude" : [ 36.11949 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "lnFr4v-2FQqqjK8Sc8M5fA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "808" ],
+        "review_count" : [ 11 ],
+        "categories" : [ "Seafood", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173336 ],
+        "latitude" : [ 36.119556 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "XKNY6TytwvkfOiKYRMxRhg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Towers Deli" ],
+        "review_count" : [ 31 ],
+        "categories" : [ "Delis", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_Aq9R8FRoXq8HwC5qf80Xg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Koi" ],
+        "review_count" : [ 379 ],
+        "categories" : [ "Japanese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1725201 ],
+        "latitude" : [ 36.1100794 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "jeuOVN5ZMX-2kwe51SYf1g",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Rubio's Fresh Mexican Grill" ],
+        "review_count" : [ 26 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1732166 ],
+        "latitude" : [ 36.1041893 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "2e2e7WgqU1BnpxmQL5jbfw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Earl of Sandwich" ],
+        "review_count" : [ 3984 ],
+        "categories" : [ "Sandwiches", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.170553265095 ],
+        "latitude" : [ 36.1102659929599 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ZEOiwWUDKL_4ZZz2TWiUUg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Sidewalk Cafe" ],
+        "review_count" : [ 74 ],
+        "categories" : [ "Cafes", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1684081 ],
+        "latitude" : [ 36.1135342 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "mANSEm_FbXK6qtB7n6nWgg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Paradise Garden Buffet" ],
+        "review_count" : [ 262 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172601 ],
+        "latitude" : [ 36.115606 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "OKl4Qdg_zAwpQMhshD_0Zg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Buzios Seafood Restaurant" ],
+        "review_count" : [ 83 ],
+        "categories" : [ "Seafood", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1809762 ],
+        "latitude" : [ 36.1143876 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "r_nzxK8pAOOpEM-tRPHXKQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Java Coast Cafe" ],
+        "review_count" : [ 14 ],
+        "categories" : [ "Creperies", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1713943 ],
+        "latitude" : [ 36.1156902 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "LjxKWM9wmyp7iYDkEMdwGQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Ciao Ciao Cafe & Bar" ],
+        "review_count" : [ 42 ],
+        "categories" : [ "Cafes", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1766881 ],
+        "latitude" : [ 36.1174528 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "GUEfosyg2YR2zwzpQScZBQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Bonanno's New York Pizzeria" ],
+        "review_count" : [ 13 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172041751065 ],
+        "latitude" : [ 36.1163674992384 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "M3sHcgWd1gqw5c3L8QnAHQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Lobster Me - Miracle Mile Shops" ],
+        "review_count" : [ 460 ],
+        "categories" : [ "Seafood", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.170403 ],
+        "latitude" : [ 36.108742 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "0i0PwU8lpj4evYKQogWxcA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Public House" ],
+        "review_count" : [ 420 ],
+        "categories" : [ "Gastropubs", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "uqxw_geNvNbPs_YY4TAhCA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Rockin' Taco Mexican Grill" ],
+        "review_count" : [ 49 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172744169831 ],
+        "latitude" : [ 36.1079044640064 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "k2IvgjxKLpj_3iw2NVfe9Q",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Boardhouse Serious Sandwich" ],
+        "review_count" : [ 9 ],
+        "categories" : [ "Sandwiches", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1639502 ],
+        "latitude" : [ 36.1132842 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "6HCFfg-1HKy6G5t4b_hUPg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Tetsu" ],
+        "review_count" : [ 31 ],
+        "categories" : [ "Japanese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.176915 ],
+        "latitude" : [ 36.106704 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "sIyHTizqAiGu12XMLX3N3g",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Bacchanal Buffet" ],
+        "review_count" : [ 3046 ],
+        "categories" : [ "Buffets", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.176174387815 ],
+        "latitude" : [ 36.1158543432481 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "OL6SSsa9D7Z4IQIPJ_EGJA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "DJ's Taco Bar" ],
+        "review_count" : [ 135 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1727516 ],
+        "latitude" : [ 36.1062031 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "aGbjLWzcrnEx2ZmMCFm3EA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Gordon Ramsay BurGR" ],
+        "review_count" : [ 2537 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172338485718 ],
+        "latitude" : [ 36.1101083959134 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Iyy4pDmnKTZkAorzclO4Eg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Nobu" ],
+        "review_count" : [ 305 ],
+        "categories" : [ "Japanese", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17751554521 ],
+        "latitude" : [ 36.1170344582059 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ghnQrKVEjiWZ3UE1XDzJUQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Five50 Pizza Bar" ],
+        "review_count" : [ 284 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.173703 ],
+        "latitude" : [ 36.107291 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "RQYsXLFFefpCNkWkJ3gCnA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Carmine's" ],
+        "review_count" : [ 195 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1729418 ],
+        "latitude" : [ 36.1183949 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "NsnXXv0myDLgTa7M3VoMGw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Kosher Gourmet" ],
+        "review_count" : [ 7 ],
+        "categories" : [ "Kosher", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.17204 ],
+        "latitude" : [ 36.106542 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "y8VQQO_WkYNjSLcq6hyjPA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Buddy V's Ristorante" ],
+        "review_count" : [ 341 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "x42C5j84k0Y4H20fcJwbRQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Pin Up Pizza" ],
+        "review_count" : [ 125 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172501 ],
+        "latitude" : [ 36.1100668 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "OsMRIq2-M9jMVVPFiqp4sA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "800 Degrees" ],
+        "review_count" : [ 120 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173600242272 ],
+        "latitude" : [ 36.1049221142345 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "s5-VDvUqyYnD8RG3LPqnbQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Giada" ],
+        "review_count" : [ 632 ],
+        "categories" : [ "Restaurants", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172286068401 ],
+        "latitude" : [ 36.1151458784834 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "7lMtOZEiWnFtEtahdumobw",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Ocean One Bar & Grill" ],
+        "review_count" : [ 12 ],
+        "categories" : [ "Seafood", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.1721858 ],
+        "latitude" : [ 36.1107749 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "JU-y40a_2XjhBe_G5jnSAg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Lasalsa Cantina Mexican Fare" ],
+        "review_count" : [ 6 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1729418 ],
+        "latitude" : [ 36.1183949 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "bntRdC23ijuKo41SBrPgFQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Quesadilla" ],
+        "review_count" : [ 30 ],
+        "categories" : [ "Mexican", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172435 ],
+        "latitude" : [ 36.1181689 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "bKg0Ji7XgdkamWL0kVem7w",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Breeze Cafe" ],
+        "review_count" : [ 18 ],
+        "categories" : [ "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.177674389996 ],
+        "latitude" : [ 36.1067595588488 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_Q4VSHSr8ryAOfmsd9g6yA",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "SEA: The Thai Experience" ],
+        "review_count" : [ 162 ],
+        "categories" : [ "Thai", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727967 ],
+        "latitude" : [ 36.1121766 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "rYXu8NasDNnLZrmHymaQWg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "é by José Andrés" ],
+        "review_count" : [ 194 ],
+        "categories" : [ "Spanish", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.173604488373 ],
+        "latitude" : [ 36.1099957160496 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "McXavPYFZCsldUoXITNoGg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Pizza Joint" ],
+        "review_count" : [ 19 ],
+        "categories" : [ "Pizza", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172557 ],
+        "latitude" : [ 36.1156338 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "5VLZsa0Q4PKXK8UMB_VoYg",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Catfish Alley" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Southern", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17204 ],
+        "latitude" : [ 36.106542 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "BeSDpZgoDwYfTMUBJQwdEQ",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Ketchup Premium Burger Bar" ],
+        "review_count" : [ 87 ],
+        "categories" : [ "Burgers", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1721858 ],
+        "latitude" : [ 36.1107749 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "rj6F_QzE3rh81lC16-EE5g",
+      "_score" : 0.20512135,
+      "fields" : {
+        "name" : [ "Dumpling And Noodle house" ],
+        "review_count" : [ 12 ],
+        "categories" : [ "Chinese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.171661290089 ],
+        "latitude" : [ 36.1076001737469 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "PZAuVbRTQpYcELLA5C5OnQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Chipotle Mexican Grill" ],
+        "review_count" : [ 6 ],
+        "categories" : [ "Fast Food", "Mexican", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1721858 ],
+        "latitude" : [ 36.1107749 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "wKggm6YQQnHlHSnRyXrPhw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Chipotle Mexican Grill" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Fast Food", "Mexican", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172925723135 ],
+        "latitude" : [ 36.1123757791792 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FudNA-KYx-QKaeyghJoPAg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Yong Kang Street" ],
+        "review_count" : [ 41 ],
+        "categories" : [ "Japanese", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.17155 ],
+        "latitude" : [ 36.1121506 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Xhg93cMdemu5pAMkDoEdtQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Serendipity 3" ],
+        "review_count" : [ 3007 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173316579637 ],
+        "latitude" : [ 36.1156697204335 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "sD38Tp5O4W06Bx-DxeW9oQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "barMASA" ],
+        "review_count" : [ 181 ],
+        "categories" : [ "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.176914489044 ],
+        "latitude" : [ 36.1066556139845 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "9KkLGqb-D-cysttQzIl6ww",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Sirio Ristorante" ],
+        "review_count" : [ 173 ],
+        "categories" : [ "Italian", "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.174226760864 ],
+        "latitude" : [ 36.1068839544006 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_5k83wy9_5NpErw7Ecgt3g",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "American Fish" ],
+        "review_count" : [ 290 ],
+        "categories" : [ "Seafood", "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.173207521439 ],
+        "latitude" : [ 36.1067886059968 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "OiCxoAIoBvEWxf7p1qVVmA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Sage" ],
+        "review_count" : [ 720 ],
+        "categories" : [ "American (New)", "Mediterranean", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.176501274109 ],
+        "latitude" : [ 36.1075773938549 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "hD_tY2zhUv7vMq6e9sg1ug",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Denny's" ],
+        "review_count" : [ 83 ],
+        "categories" : [ "American (Traditional)", "Diners", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171662569046 ],
+        "latitude" : [ 36.1210722402062 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "EtWH--gCfZ7wn9DT1gCafQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Nathan's Famous" ],
+        "review_count" : [ 21 ],
+        "categories" : [ "Hot Dogs", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1727967 ],
+        "latitude" : [ 36.1121766 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "BqrTtox0JbG-P_DKBB5bBw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Holsteins Shakes and Buns" ],
+        "review_count" : [ 1757 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1732124 ],
+        "latitude" : [ 36.109622 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "cMvN1j-LK64zqmT4vnl8NA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "China Poblano" ],
+        "review_count" : [ 835 ],
+        "categories" : [ "Mexican", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174813739713 ],
+        "latitude" : [ 36.1098709067244 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "RE3xkxkjmHQIARrLSIeerg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "The Henry" ],
+        "review_count" : [ 381 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1731471 ],
+        "latitude" : [ 36.1098769 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "9b7MUe2D37ZSJ6RegW-SWA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "McDonald's" ],
+        "review_count" : [ 47 ],
+        "categories" : [ "Burgers", "Fast Food", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727487 ],
+        "latitude" : [ 36.1060731 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "mzQp4bnowm0ELC7aJOqpLQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Ginseng 3" ],
+        "review_count" : [ 104 ],
+        "categories" : [ "Korean", "Japanese", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172532 ],
+        "latitude" : [ 36.118221 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "YzqpmUayG1dhUjkVe8V9Lw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Sea Harbour" ],
+        "review_count" : [ 10 ],
+        "categories" : [ "Seafood", "Asian Fusion", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.173336 ],
+        "latitude" : [ 36.119556 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "BqD7X5CHXnJ14YbBBlLx1w",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Julian Serrano" ],
+        "review_count" : [ 990 ],
+        "categories" : [ "Tapas Bars", "Spanish", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175769010803 ],
+        "latitude" : [ 36.1084584289216 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Tibe77nC5NFWTeEJZbU23A",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Big Hurt's Snack Shack" ],
+        "review_count" : [ 14 ],
+        "categories" : [ "Burgers", "Hot Dogs", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1726202 ],
+        "latitude" : [ 36.1183787 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "CXrz1RkXWjzg5Of8huhOpA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Munchbar" ],
+        "review_count" : [ 139 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.177901 ],
+        "latitude" : [ 36.1171675 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Cu3L4mNS_Np34wD7Af2fCw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "CENTRAL BY MICHEL RICHARD" ],
+        "review_count" : [ 249 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.177855 ],
+        "latitude" : [ 36.117294 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Kbt0B_Yl7hgGaq98UxwFaw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Zanzibar Cafe" ],
+        "review_count" : [ 6 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1725201 ],
+        "latitude" : [ 36.1100794 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "dMwwBt0BcE4zfIiBBXMogg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Jasmine" ],
+        "review_count" : [ 195 ],
+        "categories" : [ "Bars", "Nightlife", "Chinese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "H6CJflwclNpttYrtsBMsVg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Emeril's New Orleans Fish House" ],
+        "review_count" : [ 597 ],
+        "categories" : [ "Seafood", "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.169191 ],
+        "latitude" : [ 36.105982 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "5rtC3OBCIq0WKVoKH--GCg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Bradley Ogden" ],
+        "review_count" : [ 201 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173336 ],
+        "latitude" : [ 36.119556 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "DmePZG8oflIXPukeHNv38A",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Pizzeria Francesco's" ],
+        "review_count" : [ 54 ],
+        "categories" : [ "Restaurants", "Pizza", "Italian" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.176508427539 ],
+        "latitude" : [ 36.120380555577 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "AbwqwmeGWDFtXuQkW4_xnw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Denny's" ],
+        "review_count" : [ 68 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171448 ],
+        "latitude" : [ 36.120894 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "XZpUbduFE3HUbFkt1Zk3aA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Victorian Cafe" ],
+        "review_count" : [ 157 ],
+        "categories" : [ "American (Traditional)", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171781 ],
+        "latitude" : [ 36.115023 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "CZjcFdvJhksq9dy58NVEzw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "The Buffet at Bellagio" ],
+        "review_count" : [ 2583 ],
+        "categories" : [ "American (New)", "Buffets", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17640884972 ],
+        "latitude" : [ 36.113160408814 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "GAA2AxjySMqN-p-n89SJIA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Ichiban Sushi" ],
+        "review_count" : [ 108 ],
+        "categories" : [ "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1684081 ],
+        "latitude" : [ 36.1135342 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "KjymOs12Mpy0Kd54b7T9MA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Olives" ],
+        "review_count" : [ 1124 ],
+        "categories" : [ "Bars", "Mediterranean", "Nightlife", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17698 ],
+        "latitude" : [ 36.111978 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "tz1OiXy_smAtZx80oRQttQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Cafe Belle Madeleine" ],
+        "review_count" : [ 111 ],
+        "categories" : [ "Bakeries", "Food", "Cafes", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.171405076981 ],
+        "latitude" : [ 36.1207009354469 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "WvcDPv5Kk2xAKhmUoFx7TA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Cypress Street Marketplace" ],
+        "review_count" : [ 84 ],
+        "categories" : [ "Fast Food", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.177901 ],
+        "latitude" : [ 36.1171675 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "CkFFL2W3ChkOqHJj6GSk_g",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Lucky Cheng's Restaurant" ],
+        "review_count" : [ 10 ],
+        "categories" : [ "Asian Fusion", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1707331 ],
+        "latitude" : [ 36.1111846 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "JtvwIwSl6rXVKacqP8avyw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "California Pizza Kitchen" ],
+        "review_count" : [ 102 ],
+        "categories" : [ "American (New)", "Pizza", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174388868189 ],
+        "latitude" : [ 36.1203387139287 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Fs9JCi3AtQx2rDP5Vs-3kQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Crustacean Restaurant" ],
+        "review_count" : [ 6 ],
+        "categories" : [ "Seafood", "Asian Fusion", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1727107 ],
+        "latitude" : [ 36.1094088 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "I0kZ5AgtltKOpZIY8jOJBQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Subway" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Fast Food", "Sandwiches", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.1719992 ],
+        "latitude" : [ 36.1206645 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "dm4thvdDU9MKk8sbo6WuBg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Noble Roman's Pizza" ],
+        "review_count" : [ 10 ],
+        "categories" : [ "Pizza", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1721151 ],
+        "latitude" : [ 36.1209539 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "otcGBl0p5cTCfSOr6O7PCg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Metro Pizza" ],
+        "review_count" : [ 51 ],
+        "categories" : [ "Italian", "Pizza", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.16345 ],
+        "latitude" : [ 36.112986 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "QJlab4DqvBRJPUfg7Vn5ZQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Spago" ],
+        "review_count" : [ 728 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173411369324 ],
+        "latitude" : [ 36.1182729219375 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "88CNSyeoKhGn1x0SHvz8Ig",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Postrio" ],
+        "review_count" : [ 371 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "DKY2be7dDX2CT_WB_Dk4pQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Todai Restaurant" ],
+        "review_count" : [ 283 ],
+        "categories" : [ "Buffets", "Japanese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.168164220181 ],
+        "latitude" : [ 36.1083080499443 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "objtwN6N5W2lvOzkFxfyaA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Sbarro" ],
+        "review_count" : [ 22 ],
+        "categories" : [ "Italian", "Pizza", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1727367 ],
+        "latitude" : [ 36.1142391 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "gGeVLZ9j_wAYKbaqgnKSJA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Tao Asian Bistro" ],
+        "review_count" : [ 892 ],
+        "categories" : [ "Asian Fusion", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.169611 ],
+        "latitude" : [ 36.121458 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "kAXwEMkpcKMObw45QJGqnw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Toby Keith's I Love This Bar & Grill" ],
+        "review_count" : [ 349 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.170383135101 ],
+        "latitude" : [ 36.1189978366785 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "lRjt0jii_pyhSH8Z3E7EmQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Hyakumi" ],
+        "review_count" : [ 93 ],
+        "categories" : [ "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.176501274109 ],
+        "latitude" : [ 36.1169607071423 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "wxf6JIS3U1U7d_GMwppq8Q",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Augustus Cafe" ],
+        "review_count" : [ 65 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173336 ],
+        "latitude" : [ 36.119556 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "KEAcdirCmRgS7tYZrOpm7w",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Nathan's Famous" ],
+        "review_count" : [ 55 ],
+        "categories" : [ "Hot Dogs", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171338 ],
+        "latitude" : [ 36.121239 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "I6Og6AURCkhvsUuZclZOQQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Hamada of Japan" ],
+        "review_count" : [ 22 ],
+        "categories" : [ "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172535 ],
+        "latitude" : [ 36.115656 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "-RnHetpjoz1mKVNMHfh1qQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Empress Court" ],
+        "review_count" : [ 21 ],
+        "categories" : [ "Seafood", "Chinese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1729495 ],
+        "latitude" : [ 36.1153931 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "MnoF8A3UAghzXKSunNSn2Q",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Panda Express" ],
+        "review_count" : [ 41 ],
+        "categories" : [ "Fast Food", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "xnRljkaR6zaVTpLYolQteg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "BURGER BRASSERIE" ],
+        "review_count" : [ 446 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.170283 ],
+        "latitude" : [ 36.112648 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "9CLZ-Uwv3nmOlbbGCIhvrQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Ocean One Bar and Grille" ],
+        "review_count" : [ 204 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.170512 ],
+        "latitude" : [ 36.108854 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "65_YeaivbdWNk1ZHiAI77w",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Ginseng Korean BBQ II" ],
+        "review_count" : [ 125 ],
+        "categories" : [ "Korean", "Barbeque", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1724485 ],
+        "latitude" : [ 36.1050296 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "E7RvFsgImFGoTE437DJdPA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Tropical Breeze Cafe" ],
+        "review_count" : [ 81 ],
+        "categories" : [ "American (Traditional)", "Diners", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1723599 ],
+        "latitude" : [ 36.1160369 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_45p8kOA__aNycVVe-n-KA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Planet Dailies" ],
+        "review_count" : [ 429 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172501 ],
+        "latitude" : [ 36.1100668 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "uVoXD5EUDJlJ_Kfk3lQpNA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Suede Restaurant" ],
+        "review_count" : [ 41 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1655364 ],
+        "latitude" : [ 36.1152568 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "2mKC1oXdGCl2w8SAZK8fjw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Delights" ],
+        "review_count" : [ 58 ],
+        "categories" : [ "Delis", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.167133098297 ],
+        "latitude" : [ 36.1069705001012 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "R0t7XO28y_kqDa_m3dUnvA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Fresh Grill & Bar" ],
+        "review_count" : [ 147 ],
+        "categories" : [ "American (Traditional)", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.168816725037 ],
+        "latitude" : [ 36.1100186278114 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "yJDSMugu_Pom3pJE8MRrJA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Diablo's Cantina" ],
+        "review_count" : [ 647 ],
+        "categories" : [ "Bars", "Mexican", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173368453979 ],
+        "latitude" : [ 36.1044221948987 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "DG2JgozjEwf3nFRkJgreoQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "McDonald's" ],
+        "review_count" : [ 10 ],
+        "categories" : [ "Burgers", "Fast Food", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1732166 ],
+        "latitude" : [ 36.1041893 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FDfK4HygC_P-Idoy_K8PKQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Tequila Bar and Grill" ],
+        "review_count" : [ 165 ],
+        "categories" : [ "Bars", "Mexican", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171309034 ],
+        "latitude" : [ 36.1159916579 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "aVBpTt9GB08rQkUHiBCwRA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Casino Cafe" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1680907 ],
+        "latitude" : [ 36.1196717 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "pa0_uNtdUF8474KRoG7Mjg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Voga" ],
+        "review_count" : [ 7 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1713943 ],
+        "latitude" : [ 36.1156902 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "--zgHBiQpr8H2ZqSdGmguQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "China Star Buffet" ],
+        "review_count" : [ 6 ],
+        "categories" : [ "Buffets", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.17204 ],
+        "latitude" : [ 36.106542 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "vwAvFkrB9459ucTugR7rKw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "San Gennaro Grill" ],
+        "review_count" : [ 37 ],
+        "categories" : [ "Burgers", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.169758 ],
+        "latitude" : [ 36.121558 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "kuQT-VDRQL_V0GFmCYTbSQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Chateau Beer Garden" ],
+        "review_count" : [ 18 ],
+        "categories" : [ "Bars", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.171282 ],
+        "latitude" : [ 36.11289 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "LdBOo8U_ygMIw1lfSJwoUg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "D'Amore's Famous Pizza" ],
+        "review_count" : [ 46 ],
+        "categories" : [ "Gluten-Free", "Pizza", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172501 ],
+        "latitude" : [ 36.1100668 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "l593y9KEguq1JWVFcaL1DQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Ellis Island Cafe" ],
+        "review_count" : [ 155 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1634847 ],
+        "latitude" : [ 36.1130255 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "YJwtYZ17Dm11H0y9VoudHA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Lobster Chowder Company" ],
+        "review_count" : [ 24 ],
+        "categories" : [ "Seafood", "American (New)", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1748371 ],
+        "latitude" : [ 36.1179352 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "h-XjRidGcOuQ5erP4V166g",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Chicken Now Venetian" ],
+        "review_count" : [ 18 ],
+        "categories" : [ "Chicken Wings", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1696112 ],
+        "latitude" : [ 36.1214517 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "M_AvyTDpBCp2f-ON_20JaQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Asían Fresh" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Asian Fusion", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1659357 ],
+        "latitude" : [ 36.1079121 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "-4mNZfAXMd2mxEsD2YRcaQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "McDonald's" ],
+        "review_count" : [ 14 ],
+        "categories" : [ "Burgers", "Fast Food", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1727284 ],
+        "latitude" : [ 36.1089133 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "TsruEwjkm_-JQoRzW-Ssiw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Ah So" ],
+        "review_count" : [ 6 ],
+        "categories" : [ "Fast Food", "Chinese", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175288915634 ],
+        "latitude" : [ 36.1177182464072 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Vv3Qh337yuggEkksNGXLTg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "LA Subs & Salads" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Sandwiches", "Salad", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.172121 ],
+        "latitude" : [ 36.116349 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "nXOPTOqe8UN5UQPeaFVY4Q",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Cafe Vetro" ],
+        "review_count" : [ 13 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1784884 ],
+        "latitude" : [ 36.1092406 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "x6cn5D2kX5oWziFozdTt9g",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Snack Nook" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Fast Food", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17132 ],
+        "latitude" : [ 36.1203829 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "hsM6PF4Of6RMNcQV_c-FVQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Javier's" ],
+        "review_count" : [ 402 ],
+        "categories" : [ "Bars", "Mexican", "Nightlife", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17736753059 ],
+        "latitude" : [ 36.107617957784 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "xD8Q42kqjsxiUcs_trdLgg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Lombardi's Romagna Mia" ],
+        "review_count" : [ 76 ],
+        "categories" : [ "American (Traditional)", "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172608 ],
+        "latitude" : [ 36.109623 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "MdciqXUq0nf-bJHYmI6etw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Bonanno's NY Pizzeria" ],
+        "review_count" : [ 101 ],
+        "categories" : [ "Restaurants", "Pizza", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172557 ],
+        "latitude" : [ 36.109068 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "EB__8TSp7DUTZvEnCJ3ATg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Denny's on the Strip" ],
+        "review_count" : [ 7 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.172249 ],
+        "latitude" : [ 36.104192 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "YKNqAWom7T6zJoTpYQwbgA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Casanova" ],
+        "review_count" : [ 172 ],
+        "categories" : [ "Restaurants", "Mediterranean", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.169613361359 ],
+        "latitude" : [ 36.1214362309149 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "uCZe5GLqTeadjTLlvWNF4w",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Fountains Brunch" ],
+        "review_count" : [ 5 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.1730038 ],
+        "latitude" : [ 36.1140695 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "4OQXZon69AkUF-aLXEGImA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "dennys" ],
+        "review_count" : [ 18 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1719992 ],
+        "latitude" : [ 36.1206645 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "QnhfhHUeURnpWBoZ-cexTw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "McDonald's" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Burgers", "Fast Food", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172140869516 ],
+        "latitude" : [ 36.1201050873484 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "P3TFaom0CAdyAh9l8LwhtQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "China Max" ],
+        "review_count" : [ 5 ],
+        "categories" : [ "Food Court", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.17204 ],
+        "latitude" : [ 36.106542 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "2QB0rK7bjym4kHT0YxyXjw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Subway" ],
+        "review_count" : [ 5 ],
+        "categories" : [ "Fast Food", "Sandwiches", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.1727367 ],
+        "latitude" : [ 36.1142391 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FQdQqgLGIvXb14HHKhureA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Meatball Spot" ],
+        "review_count" : [ 18 ],
+        "categories" : [ "Italian", "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1721858 ],
+        "latitude" : [ 36.1107749 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "w29d_3Ua0_JlOaAk89Sr2w",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Chayo Mexican Kitchen + Tequila Bar" ],
+        "review_count" : [ 236 ],
+        "categories" : [ "Bars", "Mexican", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.17152802631 ],
+        "latitude" : [ 36.1175744315099 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "YW3fl_QVnF6kJ5HkH0k0BQ",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Chickenow" ],
+        "review_count" : [ 3 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.164009094238 ],
+        "latitude" : [ 36.1081504821777 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "UjAj7SjUQg8znkwk_gaDJw",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Bobby's Burger Palace" ],
+        "review_count" : [ 277 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.173315048658 ],
+        "latitude" : [ 36.105830026306 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "bdsKG7MQIMmZ73lgOaTZ0A",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "FAME" ],
+        "review_count" : [ 92 ],
+        "categories" : [ "Asian Fusion", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.170474685729 ],
+        "latitude" : [ 36.1177477678124 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "LDRAVhMLceQ8fBLI44E8Ew",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Planet Hollywood" ],
+        "review_count" : [ 157 ],
+        "categories" : [ "American (Traditional)", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.170438 ],
+        "latitude" : [ 36.110035 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "SwmStS3zjj94aV8M7kYqLg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Wolfgang Puck Pizzeria & Cucina" ],
+        "review_count" : [ 399 ],
+        "categories" : [ "Restaurants", "Pizza", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175061689998 ],
+        "latitude" : [ 36.1076767160086 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "kcx-OLbCU2CAwUHDLUnP-g",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "The Pods By Wolfgang Puck" ],
+        "review_count" : [ 21 ],
+        "categories" : [ "Restaurants", "Pizza", "Italian" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173583 ],
+        "latitude" : [ 36.1088082 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "vwM1i7TB3b75Oy8QW9A0Ug",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "McDonald's" ],
+        "review_count" : [ 27 ],
+        "categories" : [ "Burgers", "Fast Food", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1717699 ],
+        "latitude" : [ 36.1193389 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "xZoyDn7ekD4ue_liS_nqMA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Stan Fulton Bistro" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "American (New)", "Restaurants" ],
+        "stars" : [ 4.5 ],
+        "longitude" : [ -115.1756607 ],
+        "latitude" : [ 36.1146578 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "8l09P4s8VARDulVNRsMcmg",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Manhattan Streets" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Hot Dogs", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172635516935 ],
+        "latitude" : [ 36.1087723174508 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "r69rxmc9pdU4AnZkBhTNLA",
+      "_score" : 0.16409709,
+      "fields" : {
+        "name" : [ "Flour & Barley" ],
+        "review_count" : [ 124 ],
+        "categories" : [ "Italian", "Pizza", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172724053264 ],
+        "latitude" : [ 36.1175744980574 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "O-_kxBV_IYdKlG98iqjQjw",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Chili's" ],
+        "review_count" : [ 20 ],
+        "categories" : [ "Bars", "American (Traditional)", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1721927 ],
+        "latitude" : [ 36.1068162 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FqhEd4vV6Hg-0J49hBShUQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Pantry - 24 Hour Kitchen" ],
+        "review_count" : [ 55 ],
+        "categories" : [ "American (Traditional)", "American (New)", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1768386 ],
+        "latitude" : [ 36.1206111 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "gMhbZgkF6G040yPEXlTBvQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Paradise Cafe" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Sandwiches", "American (New)", "Cafes", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174078 ],
+        "latitude" : [ 36.121194 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "cN6qpVw6RaSrSI-JGGF4Tw",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Jaleo" ],
+        "review_count" : [ 705 ],
+        "categories" : [ "Tapas/Small Plates", "Spanish", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1738726 ],
+        "latitude" : [ 36.1097544 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "KcSJUq1kwO8awZRMS6Q49g",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Pink's Hot Dogs" ],
+        "review_count" : [ 750 ],
+        "categories" : [ "Fast Food", "Hot Dogs", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.173540498093 ],
+        "latitude" : [ 36.1095156600808 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "8ezD9Q-jRLNXbQd1nRceFQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Johnny Rockets" ],
+        "review_count" : [ 34 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Sandwiches", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.171418 ],
+        "latitude" : [ 36.121222 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "iXA8Y2bzvZo8MjALfZxrIg",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Margaritaville" ],
+        "review_count" : [ 818 ],
+        "categories" : [ "Bars", "American (Traditional)", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172601 ],
+        "latitude" : [ 36.115606 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "JkuXXDySMl5fF0hwmLxNCA",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Harley-Davidson Las Vegas Cafe" ],
+        "review_count" : [ 212 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Barbeque", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1725842 ],
+        "latitude" : [ 36.1085455 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "uCoNIQty4nPrhn_WHo110A",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "The Cheesecake Factory" ],
+        "review_count" : [ 314 ],
+        "categories" : [ "Food", "Desserts", "American (Traditional)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1729418 ],
+        "latitude" : [ 36.1183949 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "J4qLz0nGzCTMf6-kf_SiQg",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Carnegie" ],
+        "review_count" : [ 627 ],
+        "categories" : [ "Delis", "American (New)", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174516439438 ],
+        "latitude" : [ 36.1215488943637 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "aYEs_eXqnV8Ifj3Bp0bHwQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Sensi" ],
+        "review_count" : [ 356 ],
+        "categories" : [ "Bars", "Asian Fusion", "Nightlife", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "UigtwOB_B0Wba3yH4IK1AA",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Tommy Rocker's" ],
+        "review_count" : [ 34 ],
+        "categories" : [ "Bars", "American (Traditional)", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.182324 ],
+        "latitude" : [ 36.112044 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "WKLenSMffHdt_U7c2RDO7w",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Nosh" ],
+        "review_count" : [ 53 ],
+        "categories" : [ "Bakeries", "Food", "Bagels", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1684081 ],
+        "latitude" : [ 36.1135342 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "glmwOs55H49Q_D8ENZtqYQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Hyde Bellagio" ],
+        "review_count" : [ 309 ],
+        "categories" : [ "Bars", "Restaurants", "Nightlife", "Lounges", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1765221 ],
+        "latitude" : [ 36.1130109 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "1CaDfssfTHQAcm_U6QgldQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Original Chicken Tender" ],
+        "review_count" : [ 13 ],
+        "categories" : [ "Fast Food", "Chicken Wings", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.175297910865 ],
+        "latitude" : [ 36.1050061564516 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "XYJsNiECY0Z-fV6rejvprQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "She by Morton's" ],
+        "review_count" : [ 77 ],
+        "categories" : [ "Bars", "American (New)", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.175531803413 ],
+        "latitude" : [ 36.1078245653989 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "XziiAJUc8cgj3McljtnYVw",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Johnny Rockets" ],
+        "review_count" : [ 18 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1692922 ],
+        "latitude" : [ 36.1144707 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "W6gPrnthBK7i1pe4ZZlJDQ",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Haute Doggery" ],
+        "review_count" : [ 79 ],
+        "categories" : [ "American (Traditional)", "Hot Dogs", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1715632 ],
+        "latitude" : [ 36.1173225 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "cny9rhnhcYsJuTq2q4wp2A",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Fukuburger" ],
+        "review_count" : [ 82 ],
+        "categories" : [ "Food", "Burgers", "Food Trucks", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.170409 ],
+        "latitude" : [ 36.1182919 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "dxY1gl4cO4-rEFATCkFUIw",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "PBR Rock Bar & Grill" ],
+        "review_count" : [ 402 ],
+        "categories" : [ "Bars", "American (Traditional)", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171432448184 ],
+        "latitude" : [ 36.1098235107874 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "knx2oH7ORKVmamFlqdk9Xw",
+      "_score" : 0.14358495,
+      "fields" : {
+        "name" : [ "Johnny Rockets" ],
+        "review_count" : [ 50 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172121 ],
+        "latitude" : [ 36.116349 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "2E3OHy9UBnj3hoVw9RKx-Q",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Fulton Street Food Hall" ],
+        "review_count" : [ 13 ],
+        "categories" : [ "Cafes", "Arts & Entertainment", "Casinos", "Japanese", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1726202 ],
+        "latitude" : [ 36.1183787 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "oRcY5iM5ePnsynLXCgnXOQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Yong Kang Street" ],
+        "review_count" : [ 7 ],
+        "categories" : [ "Asian Fusion", "Dim Sum", "Chinese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17155 ],
+        "latitude" : [ 36.1121506 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "GmAGA39Wjv3MLT2ju5ALQQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "P.F. Chang's" ],
+        "review_count" : [ 290 ],
+        "categories" : [ "Gluten-Free", "Asian Fusion", "Chinese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.172501 ],
+        "latitude" : [ 36.1100668 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "0jq5ZFLRqAAujEuymdPu4g",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "MOzen Bistro" ],
+        "review_count" : [ 208 ],
+        "categories" : [ "Asian Fusion", "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173589402533 ],
+        "latitude" : [ 36.1071123122013 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "NVunai1t_GXQCAdDzFWJkQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Blue Ribbon Sushi Bar and Grill" ],
+        "review_count" : [ 413 ],
+        "categories" : [ "American (Traditional)", "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.174620039761 ],
+        "latitude" : [ 36.1097998802285 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FzeYyIca3Bw8mS4MeUUAGw",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Va Bene Caffè" ],
+        "review_count" : [ 124 ],
+        "categories" : [ "Food", "Desserts", "Coffee & Tea", "Cafes", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.174219704785 ],
+        "latitude" : [ 36.1095636214098 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "RJquknTxmUKhbziIS9hSnw",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Mandarin Oriental Tea Lounge" ],
+        "review_count" : [ 173 ],
+        "categories" : [ "Food", "Tea Rooms", "Tapas Bars", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.174350297226 ],
+        "latitude" : [ 36.1062048737462 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "pU8beAibeYjH5-KTsJqVYg",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "BB King's Blues Club" ],
+        "review_count" : [ 178 ],
+        "categories" : [ "Jazz & Blues", "Arts & Entertainment", "Southern", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174227 ],
+        "latitude" : [ 36.121618 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ZNdsRbGeOfrYYPRl6AziCQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Michael Mina" ],
+        "review_count" : [ 420 ],
+        "categories" : [ "Nightlife", "Seafood", "American (New)", "Bars", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.177001 ],
+        "latitude" : [ 36.11199 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "PPwJTT-eLjapipmyQSgi9A",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Fatburger" ],
+        "review_count" : [ 416 ],
+        "categories" : [ "Burgers", "American (Traditional)", "Fast Food", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727629 ],
+        "latitude" : [ 36.1050739 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "E9ZsPtGovfEPHlMHkDdlQA",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Noodles" ],
+        "review_count" : [ 554 ],
+        "categories" : [ "Korean", "Asian Fusion", "Dim Sum", "Chinese", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.176300531599 ],
+        "latitude" : [ 36.1122690547441 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "uqisw8IXD5ZutU4MT2MQVw",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Social House" ],
+        "review_count" : [ 581 ],
+        "categories" : [ "Bars", "Japanese", "Asian Fusion", "Nightlife", "Lounges", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173192 ],
+        "latitude" : [ 36.108713 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "UpMR63WZgIn8VDKnYpDwXA",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Cafe Bellagio" ],
+        "review_count" : [ 501 ],
+        "categories" : [ "American (Traditional)", "American (New)", "Cafes", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.174531 ],
+        "latitude" : [ 36.112379 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "8zL3V6rmFKBess3bxPLAoQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Cravings Buffet at Mirage" ],
+        "review_count" : [ 729 ],
+        "categories" : [ "American (Traditional)", "American (New)", "Buffets", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.174105 ],
+        "latitude" : [ 36.121237 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "XInU2SUuNK-IgnT-sEIvGA",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Japonais" ],
+        "review_count" : [ 288 ],
+        "categories" : [ "Asian Fusion", "Sushi Bars", "Japanese", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.168548772461 ],
+        "latitude" : [ 36.1208970842828 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "UW2gLVwL3qbh9ucnb0JjyQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Oyster Bar at Harrah's" ],
+        "review_count" : [ 297 ],
+        "categories" : [ "Live/Raw Food", "Seafood", "Restaurants", "Italian" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172711292526 ],
+        "latitude" : [ 36.1182264970781 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "H52LFxw13LBS6_ewxCwlfg",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Blondies Sports Bar & Grill" ],
+        "review_count" : [ 240 ],
+        "categories" : [ "Bars", "Restaurants", "American (Traditional)", "Sports Bars", "Nightlife" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.168146154841 ],
+        "latitude" : [ 36.1102829225121 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "rfDTJLEwZZ2EGOZiTDdqQA",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Sushi Roku" ],
+        "review_count" : [ 649 ],
+        "categories" : [ "Bars", "Sushi Bars", "Japanese", "Nightlife", "Lounges", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17305 ],
+        "latitude" : [ 36.118966 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "_tS0YfyPDxOXxrN4Kl2_HQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Trevi" ],
+        "review_count" : [ 422 ],
+        "categories" : [ "Food", "Ice Cream & Frozen Yogurt", "Restaurants", "Italian" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.17321825027501 ],
+        "latitude" : [ 36.1178395820154 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "73rjL1XeHLtJOOeDKTGsOQ",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Imperial Hawaiian Luau" ],
+        "review_count" : [ 4 ],
+        "categories" : [ "Arts & Entertainment", "Performing Arts", "Hawaiian", "Restaurants" ],
+        "stars" : [ 2.0 ],
+        "longitude" : [ -115.172535 ],
+        "latitude" : [ 36.11829 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "QBJrNGuM7A8V3amEKBlpOw",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "McFadden's" ],
+        "review_count" : [ 53 ],
+        "categories" : [ "Bars", "Pubs", "Nightlife", "American (New)", "Karaoke", "Restaurants" ],
+        "stars" : [ 2.5 ],
+        "longitude" : [ -115.1809762 ],
+        "latitude" : [ 36.1143876 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "57vXy5NIdmAFk1hhmsBLcg",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Fat Bar" ],
+        "review_count" : [ 9 ],
+        "categories" : [ "Nightlife", "Bars", "American (New)", "Sports Bars", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1727629 ],
+        "latitude" : [ 36.1050739 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "mgy5TlydcKT1bFclh1FoaA",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Snacks" ],
+        "review_count" : [ 72 ],
+        "categories" : [ "Food", "Coffee & Tea", "Cafes", "Sandwiches", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.175559997559 ],
+        "latitude" : [ 36.11376953125 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "cP6pQuoPKIoaFQBa09e-Vg",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Bubba Gump Shrimp Co" ],
+        "review_count" : [ 150 ],
+        "categories" : [ "Cajun/Creole", "Comfort Food", "Southern", "Seafood", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1721503 ],
+        "latitude" : [ 36.108911 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "xzNNNPUmFhzuLDcMYowdvg",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Liquid Pool Lounge" ],
+        "review_count" : [ 101 ],
+        "categories" : [ "Active Life", "Cafes", "Swimming Pools", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1736665 ],
+        "latitude" : [ 36.1071424 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "BQjGE1Z3nk253XzIZqt8Gg",
+      "_score" : 0.12307282,
+      "fields" : {
+        "name" : [ "Jean Philippe Patisserie" ],
+        "review_count" : [ 738 ],
+        "categories" : [ "Food", "Desserts", "Coffee & Tea", "Cafes", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.176876783371 ],
+        "latitude" : [ 36.111945921649 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "ME8gcI4BXjmFq7zEMtk3ag",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Hard Rock Café" ],
+        "review_count" : [ 294 ],
+        "categories" : [ "Arts & Entertainment", "Music Venues", "Burgers", "Nightlife", "American (New)", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1727677 ],
+        "latitude" : [ 36.1040794 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "szw8OGJlsqaA3i2oe7dn9A",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Jean Philippe Patisserie" ],
+        "review_count" : [ 825 ],
+        "categories" : [ "Bakeries", "Food", "Specialty Food", "Desserts", "Chocolatiers & Shops", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.178174972534 ],
+        "latitude" : [ 36.1068146101184 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "dpIPCsPA4puLvPRkqukmDw",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Boardwalk Hotel & Casino" ],
+        "review_count" : [ 11 ],
+        "categories" : [ "Arts & Entertainment", "American (Traditional)", "Bars", "Casinos", "Nightlife", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.1743045 ],
+        "latitude" : [ 36.1061988 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "LeZvUoCSpJ55pYL25aMozQ",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Barbary Coast Hotel & Casino" ],
+        "review_count" : [ 21 ],
+        "categories" : [ "Arts & Entertainment", "Casinos", "Event Planning & Services", "Hotels & Travel", "Hotels", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.17178 ],
+        "latitude" : [ 36.115018 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "tqu42L0qXzkvYKSruOz0IA",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Ellis Island Casino & Brewery" ],
+        "review_count" : [ 1229 ],
+        "categories" : [ "Arts & Entertainment", "American (Traditional)", "Food", "Breweries", "Casinos", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1634847 ],
+        "latitude" : [ 36.1130255 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "Rck6ZPLpkIdmQvDPRiNEpA",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "LuckyRice Night Market" ],
+        "review_count" : [ 8 ],
+        "categories" : [ "Food", "Ethnic Food", "Restaurants", "Asian Fusion", "Specialty Food" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.174105738755 ],
+        "latitude" : [ 36.1097888736095 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "FDXk2MDLPf72uEDT6Bq1Mw",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Twin Peaks" ],
+        "review_count" : [ 151 ],
+        "categories" : [ "Bars", "American (Traditional)", "Nightlife", "American (New)", "Sports Bars", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.172421613953 ],
+        "latitude" : [ 36.1088224781013 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "lfmvmL6iHq9-IDABLeNsuw",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Rose. Rabbit. Lie." ],
+        "review_count" : [ 360 ],
+        "categories" : [ "Bars", "Performing Arts", "Arts & Entertainment", "Nightlife", "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.173908 ],
+        "latitude" : [ 36.110091 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "moX-9x1Z76IlcAM3bAu4bg",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Tilted Kilt Pub & Eatery" ],
+        "review_count" : [ 70 ],
+        "categories" : [ "Bars", "American (Traditional)", "Pubs", "Nightlife", "Sports Bars", "Restaurants" ],
+        "stars" : [ 3.0 ],
+        "longitude" : [ -115.171400724732 ],
+        "latitude" : [ 36.1174535674718 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "vSf0pqvaLp5sVSjJPeOqqQ",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Todd English P.U.B." ],
+        "review_count" : [ 929 ],
+        "categories" : [ "Bars", "Food", "Beer, Wine & Spirits", "Nightlife", "Gastropubs", "Restaurants" ],
+        "stars" : [ 3.5 ],
+        "longitude" : [ -115.1738191 ],
+        "latitude" : [ 36.1071613 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "7_fiK6AQbcBlAXsoS7QZRw",
+      "_score" : 0.10256068,
+      "fields" : {
+        "name" : [ "Margaritaville Casino" ],
+        "review_count" : [ 73 ],
+        "categories" : [ "Arts & Entertainment", "Bars", "Casinos", "Nightlife", "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.172557 ],
+        "latitude" : [ 36.1156338 ]
+      }
+    }, {
+      "_index" : "yelp",
+      "_type" : "business",
+      "_id" : "4ntvolhaYeSCbHY1dhA53A",
+      "_score" : 0.08204854,
+      "fields" : {
+        "name" : [ "Brooklyn Bowl" ],
+        "review_count" : [ 234 ],
+        "categories" : [ "Arts & Entertainment", "Music Venues", "Nightlife", "Bowling", "Active Life", "American (New)", "Restaurants" ],
+        "stars" : [ 4.0 ],
+        "longitude" : [ -115.1727833 ],
+        "latitude" : [ 36.1176611 ]
+      }
+    } ]
+  }
+}

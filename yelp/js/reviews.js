@@ -10,10 +10,10 @@ function print_filter(filter){
 }
 
 // setting up elastic search url's
-var url_base_search_count = "http://ec2-54-183-182-71.us-west-1.compute.amazonaws.com:9200/yelp/review/_search?&size=5000"
+//var url_base_search_count = "http://ec2-54-183-182-71.us-west-1.compute.amazonaws.com:9200/yelp/review/_search?&size=5000"
 //var review_url = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}},"aggs":{"histo":{"date_histogram":{"field":"date","interval":"month"},"aggs":{"stars_stats":{"extended_stats":{"field":"stars"}}}}}}'
 
-var review_url = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}},"fields":["date","stars"]}'
+//var review_url = '{"query":{"match":{"business_id":"4bEjOyTaDG24SY5TxsaUNQ"}},"fields":["date","stars"]}'
 
 
 //    var url_base_search_count = "http://ec2-54-183-182-71.us-west-1.compute.amazonaws.com:9200/yelp/review/_search?search_type=count&size=5000"
@@ -51,7 +51,7 @@ function getMonnth_custom(v){
     }
 }
 
-d3.json(url_base_search_count, function(error, data) {
+d3.json('./json/reviews.json', function(error, data) {
     if (error) throw error;
 
     var yelp_data = data.hits.hits;
@@ -253,5 +253,6 @@ d3.json(url_base_search_count, function(error, data) {
     //Render the graphs
     dc.renderAll();
 
-}).header("Content-Type","application/json")
-    .send("POST", review_url);
+})
+//.header("Content-Type","application/json")
+//.send("POST", review_url);
