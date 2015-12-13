@@ -18,6 +18,8 @@
 <div id="chart-detail_review"></div>
 <div id="chart-avg_detail_review"></div>
 <div id="chart-stars"></div>
+<div id="chart-line-rating"></div>
+<div id="chart-avg_detail_line"></div>
 <script>
 
     function print_filter(filter){
@@ -227,6 +229,9 @@
                 .x(d3.scale.ordinal().domain(d3.range(1,13)))
                 .xUnits(dc.units.ordinal)
                 .yAxis().ticks(5);
+
+        
+
 
         //Render the graphs
         dc.renderAll();
