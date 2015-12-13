@@ -127,3 +127,19 @@ svg .pumpkin {
 .sentiment-left {
   float:left; 
 }
+
+#portfolioModal0 {
+    height: 1100px;
+}
+
+#portfolioModal1 {
+    height: 800px;
+}
+
+#portfolioModal2 {
+    height: 600px;
+}
+
+#team {
+    height: 700px;
+}

@@ -79,7 +79,7 @@ d3.json('./json/reviews.json', function(error, data) {
     var minYear = yearDim.bottom(1)[0].review_year;
     var maxYear = yearDim.top(1)[0].review_year;
     all_yearBarChart
-        .width(500).height(200)
+        .width(450).height(200)
         .transitionDuration(1500)
         .dimension(yearDim)
         .group(year_count)
@@ -101,7 +101,7 @@ d3.json('./json/reviews.json', function(error, data) {
     var monthCount = monthDim.group().reduceCount();
     print_filter(monthCount);
     detail_BarChart
-        .width(500).height(200)
+        .width(450).height(200)
         .transitionDuration(1500)
         .dimension(monthDim)
         .group(monthCount)
@@ -140,7 +140,7 @@ d3.json('./json/reviews.json', function(error, data) {
     print_filter(review_count);
 
     stars_Chart
-        .width(500).height(200)
+        .width(450).height(187)
         .transitionDuration(1500)
         .dimension(reviewDim)
         .group(review_count)
@@ -154,9 +154,10 @@ d3.json('./json/reviews.json', function(error, data) {
         .xAxis().ticks(4);
 
 
+
     // Chart for Average Review of Restaurant over years
     var yearDim_rating = ndx1.dimension(function(d){ return d.Year;});
-    var all_avgBarChart  = dc.barChart("#chart-avg_all_review");
+    var all_avglineChart  = dc.lineChart("#chart-avg_all_review");
     var year_avg = yearDim_rating.group().reduce(
         //add
         function(p,v){
@@ -181,12 +182,13 @@ d3.json('./json/reviews.json', function(error, data) {
     //Can be used to find the range for x axis
     var minYear = yearDim.bottom(1)[0].Year;
     var maxYear = yearDim.top(1)[0].Year;
-    all_avgBarChart
+    all_avglineChart
         .width(500).height(200)
         .transitionDuration(1500)
         .dimension(yearDim_rating)
         .group(year_avg)
-        .gap(13)
+        .renderDataPoints(true)
+        .clipPadding(10)
         .colors('#FF430D')
         //.elasticY(true)
         .brushOn(false)
@@ -199,56 +201,57 @@ d3.json('./json/reviews.json', function(error, data) {
         .x(d3.scale.ordinal().domain(d3.range(minYear,maxYear+1)))
         .xUnits(dc.units.ordinal)
         .xAxis().tickFormat(function(v) {return v;});
-    all_avgBarChart
+    all_avglineChart
         .yAxis().ticks(5);
 
 
     //chart for avergae rating in detail for a selected year
-    var detailRating_BarChart = dc.barChart("#chart-avg_detail_review");
-    var month_ratingDim = ndx1.dimension(function(d){return d.Month;});
-
-    var monthAvg = month_ratingDim.group().reduce(
-        //add
-        function(p,v){
-            ++p.count;
-            p.star_sum += v.star;
-            p.star_avg = p.star_sum / p.count;
-            return p;
-        },
-        //remove
-        function(p,v){
-            --p.count;
-            p.star_sum -= v.star;
-            p.star_avg = p.star_sum / p.count;
-            return p;
-        },
-        //init
-        function(p,v){
-            return {count:0,  star_sum: 0, star_avg: 0};
-        }
-    );
-    print_filter(monthAvg);
-    detailRating_BarChart
-        .width(500).height(200)
-        .transitionDuration(1500)
-        .dimension(month_ratingDim)
-        .group(monthAvg)
-        .gap(13)
-        .brushOn(false)
-        .colors('#FF430D')
-        .yAxisLabel("Average Rating")
-        .xAxisLabel("Months")
-        .valueAccessor(function (p) {
-            return p.value.star_avg;
-        })
-        .title(function(d){return d3.round(d.value.star_avg,2);})
-        .x(d3.scale.ordinal().domain(d3.range(1,13)))
-        .xUnits(dc.units.ordinal)
-        .xAxis().tickFormat(function(v) {
-            return getMonnth_custom(v);
-        });
-    detailRating_BarChart
-        .yAxis().ticks(5);
+    //var detailRating_BarChart = dc.barChart("#chart-avg_detail_review");
+    //var month_ratingDim = ndx1.dimension(function(d){return d.Month;});
+    //
+    //var monthAvg = month_ratingDim.group().reduce(
+    //    //add
+    //    function(p,v){
+    //        ++p.count;
+    //        p.star_sum += v.star;
+    //        p.star_avg = p.star_sum / p.count;
+    //        return p;
+    //    },
+    //    //remove
+    //    function(p,v){
+    //        --p.count;
+    //        p.star_sum -= v.star;
+    //        p.star_avg = p.star_sum / p.count;
+    //        return p;
+    //    },
+    //    //init
+    //    function(p,v){
+    //        return {count:0,  star_sum: 0, star_avg: 0};
+    //    }
+    //);
+    //commented out bar chart for monthly rating
+    //print_filter(monthAvg);
+    //detailRating_BarChart
+    //    .width(500).height(200)
+    //    .transitionDuration(1500)
+    //    .dimension(month_ratingDim)
+    //    .group(monthAvg)
+    //    .gap(13)
+    //    .brushOn(false)
+    //    .colors('#FF430D')
+    //    .yAxisLabel("Average Rating")
+    //    .xAxisLabel("Months")
+    //    .valueAccessor(function (p) {
+    //        return p.value.star_avg;
+    //    })
+    //    .title(function(d){return d3.round(d.value.star_avg,2);})
+    //    .x(d3.scale.ordinal().domain(d3.range(1,13)))
+    //    .xUnits(dc.units.ordinal)
+    //    .xAxis().tickFormat(function(v) {
+    //        return getMonnth_custom(v);
+    //    });
+    //detailRating_BarChart
+    //    .yAxis().ticks(5);
 
     //Render the graphs
     dc.renderAll();

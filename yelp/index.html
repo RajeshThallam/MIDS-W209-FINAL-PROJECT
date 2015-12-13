@@ -99,6 +99,7 @@
                 <div class="intro-lead-in">Explore and visualize your business trends using Yelp</div>
                 <p class="intro-description">A project aimed to help businesses discover opportunities and maximize their efficiencies using Yelp data - businesses, checkins, reviews, ratings, tips and users. If you would like to learn more please contact <a href="https://www.linkedin.com/in/hetalc">Hetal</a>, <a href="https://www.linkedin.com/in/jingxu2">Jing</a>, <a href="https://www.linkedin.com/in/rajeshthallam">Rajesh</a> or <a href="https://www.linkedin.com/in/sayantansatpati">Sayantan</a>.</p>
                 <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
+                <a href="#explore" class="page-scroll btn btn-xl">Explore Viz</a>
             </div>
         </div>
     </header>
@@ -304,7 +305,8 @@
             </div>
             <div class="row">
                 <div>
-                <p class="text-muted text-center">The visualization below shows the yelp catgeories and the distribution of various business within the neighborhood for the selected business.</p>
+                    <br>
+                    <p class="text-muted text-center">The visualization below shows the catgeories and the distribution of various business within the neighborhood for the selected business. Selecting a category on the left side updates the chart on the right.</p>
                 </div>
                     <div class='pie-graph span4' id='cat_graph'>
                     <p class="text-center">Categories and count of restaurant in each category</p>
@@ -318,27 +320,34 @@
 
     <section id="portfolioModal1">
         <div class="container">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-center">Reviews</h2>
-                <h3 class="section-subheading text-muted">How are my reviews trending over the years?</h3>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-center">Reviews</h2>
+                    <h3 class="section-subheading text-muted">How are my reviews trending over the years?</h3>
+                </div>
             </div>
-            <div class="col-sm-6">
-                <div class='pie-graph span4' id="chart-all_year_review">
-                    <p class="text-center">Total number of reviews over the years</p></div>
-                <div class='pie-graph span4' id="chart-detail_review">
+            <div class="row">
+                <p class="text-muted">The bar graphs below show the total number of reviews over the years for a business. Selecting a year in the first bar graph gives detail view for that year.</h4>
+                <div class="col-sm-4" id="chart-all_year_review">
+                    <p class="text-center" id="info">Total number of reviews over the years.</p></div>
+                <div class="col-sm-4" id="chart-detail_review">
                     <p class="text-center">Total number of reviews each month</p>
                 </div>
-                <div class='pie-graph span4' id="chart-stars">
+                <div class="col-sm-4" id="chart-stars">
                     <p class="text-center">Total number of reviews for each rating</p>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class='pie-graph span4' id="chart-avg_all_review">
-                    <p class="text-center">Average star rating over the years</p>
+            <div class="row">
+                <div>
+                    <br></br>
+                    <p class="text-muted text-center">Graph below shows the average rating over the years for a business.</p>
                 </div>
-                <div class='pie-graph span4' id="chart-avg_detail_review">
-                    <p class="text-center">Average star rating each month</p>
+                <div class='col-lg-6 col-lg-offset-3' id="chart-avg_all_review">
+                    <!--<p class="text-center">Average star rating over the years</p>-->
                 </div>
+                <!--<div class='pie-graph span4' id="chart-avg_detail_review">-->
+                    <!--<p class="text-center">Average star rating each month</p>-->
+                <!--</div>-->
             </div>
         </div>
     </section>
