@@ -19,11 +19,11 @@
     <link href="css/yelp.css" rel="stylesheet">
 
     <!-- DC css-->
-    <link href='css/dc.css' rel='stylesheet' type='text/css'>
+    <!-- <link href='css/dc.css' rel='stylesheet' type='text/css'> -->
 
     <!-- Map css -->
-    <link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
-    <link type="text/css" href="css/leaflet-legend.css" rel="stylesheet"/>
+    <!-- <link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
+    <link type="text/css" href="css/leaflet-legend.css" rel="stylesheet"/> -->
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -70,8 +70,11 @@
                     <li>
                         <a class="page-scroll" href="#story">Story</a>
                     </li>
-                    <li class="dropdown">
-                        <!--<a class="page-scroll" href="#explore">Explore</a>-->
+                    <li>
+                        <a class="page-scroll" href="modal.html" data-target="#explore-modal" data-toggle="modal">Explore</a>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a class="page-scroll" href="#explore">Explore</a>
 
                         <a href="#" class="dropdown-toggle page-scroll" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
                         <ul class="dropdown-menu" id="custom_yelp_nav">
@@ -80,7 +83,7 @@
                             <li><a class="page-scroll" href="#portfolioModal2">Checkins</a></li>
                             <li><a class="page-scroll" href="#portfolioModal3">Sentiment Analysis</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
@@ -99,7 +102,7 @@
                 <div class="intro-lead-in">Explore and visualize your business trends using Yelp</div>
                 <p class="intro-description">A project aimed to help businesses discover opportunities and maximize their efficiencies using Yelp data - businesses, checkins, reviews, ratings, tips and users. If you would like to learn more please contact <a href="https://www.linkedin.com/in/hetalc">Hetal</a>, <a href="https://www.linkedin.com/in/jingxu2">Jing</a>, <a href="https://www.linkedin.com/in/rajeshthallam">Rajesh</a> or <a href="https://www.linkedin.com/in/sayantansatpati">Sayantan</a>.</p>
                 <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
-                <a href="#explore" class="page-scroll btn btn-xl">Explore Viz</a>
+                <a href="modal.html" class="page-scroll btn btn-xl" data-target="#explore-modal" data-toggle="modal">Explore Viz</a>
             </div>
         </div>
     </header>
@@ -249,43 +252,23 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Lets explore yelp data !</h2>
                     <h3 class="section-subheading text-muted">Use our interactive visualization to understand business trends.</h3>
+                    <a href="modal.html" class="page-scroll btn btn-xl" data-target="#explore-modal" data-toggle="modal">Explore Viz</a>
                 </div>
             </div>
-            <!--<div class="row">-->
-
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal0" class="page-scroll">Neighborhood</a>-->
-                <!--</div>-->
-
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal1" class="page-scroll">Reviews</a>-->
-                <!--</div>-->
-
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal2" class="page-scroll">Check In</a>-->
-                <!--</div>-->
-
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal3" class="page-scroll"></a>-->
-                <!--</div>-->
-
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal4" class="page-scroll"></a>-->
-                <!--</div>-->
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal5" class="page-scroll"></a>-->
-                <!--</div>-->
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-                    <!--<a href="#portfolioModal6" class="page-scroll"></a>-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
     </section>
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <section id="portfolioModal0">
+    <div class="portfolio-modal modal fade" id="explore-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" style="padding:10px; width:100%; height:600px; overflow:auto;">
+        <div class="modal-content">
+        </div> <!-- /.modal-content -->
+      </div> <!-- /.modal-dialog -->
+    </div>
+
+    <!-- <section id="portfolioModal0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -298,7 +281,7 @@
                 </div>
                 <div class="col-md-4" id="viz_neighborhood_stars">
                 </div>
-          </div>
+            </div>
             <div>
                 <p></p>
                 <p></p>
@@ -316,9 +299,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="portfolioModal1">
+    <!-- <section id="portfolioModal1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -342,13 +325,13 @@
                     <br></br>
                     <p class="text-muted text-center">Graph below shows the average rating over the years for a business.</p>
                 </div>
-                <div class='col-lg-6 col-lg-offset-3' id="chart-avg_all_review">
+                <div class='col-lg-6 col-lg-offset-3' id="chart-avg_all_review"> -->
                     <!--<p class="text-center">Average star rating over the years</p>-->
-                </div>
+                <!-- </div> -->
                 <!--<div class='pie-graph span4' id="chart-avg_detail_review">-->
                     <!--<p class="text-center">Average star rating each month</p>-->
                 <!--</div>-->
-            </div>
+            <!-- </div>
         </div>
     </section>
 
@@ -393,7 +376,7 @@
               <div id="chart-review-wordcloud" class="col-md-6"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- Team Section -->
@@ -495,12 +478,10 @@
     <script src="js/jquery-1.11.3.js"></script>
 
     <!-- Viz js-->
-    <script src="js/d3.js"></script>
+    <!-- <script src="js/d3.js"></script>
     <script src="js/d3.layout.cloud.js"></script>
     <script src="js/crossfilter.js"></script>
-    <script src="js/dc.js"></script>
-
-
+    <script src="js/dc.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -515,16 +496,15 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Map -->
-    <script type="text/javascript" src="./js/leaflet.js"></script>
-    <script type="text/javascript" src="./js/colorbrewer.js"></script>
-
+    <!-- <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/colorbrewer.js"></script> -->
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-    <script src="js/reviews.js"></script>
+    <!-- <script src="js/reviews.js"></script>
     <script src="js/checkins.js"></script>
     <script src="js/neighborhood.js"></script>
-    <script src="js/sentiment.js"></script>
+    <script src="js/sentiment.js"></script> -->
 
 </body>
 
